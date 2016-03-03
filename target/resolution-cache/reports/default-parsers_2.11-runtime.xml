@@ -1,0 +1,1264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="parsers_2.11"
+		revision="1.0"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20160303175500"/>
+	<dependencies>
+		<module organisation="org.scalanlp" name="english_2.11">
+			<revision name="2015.1.25" status="release" pubdate="20150125191146" resolver="public" artresolver="public" homepage="http://scalanlp.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="83">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="1948" time="46" location="/Users/pbhatia/.ivy2/cache/org.scalanlp/english_2.11/ivy-2015.1.25.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.scalanlp/english_2.11/ivy-2015.1.25.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalanlp/english_2.11/2015.1.25/english_2.11-2015.1.25.pom"/>
+				<caller organisation="default" name="parsers_2.11" conf="compile, runtime" rev="2015.1.25" rev-constraint-default="2015.1.25" rev-constraint-dynamic="2015.1.25" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="english_2.11" type="jar" ext="jar" status="successful" details="" size="278" time="83" location="/Users/pbhatia/.ivy2/cache/org.scalanlp/english_2.11/jars/english_2.11-2015.1.25.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalanlp/english_2.11/2015.1.25/english_2.11-2015.1.25.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalanlp" name="epic-ner-en-conll_2.11">
+			<revision name="2015.1.25" status="release" pubdate="20150125190846" resolver="public" artresolver="public" homepage="http://scalanlp.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="82">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="1587" time="128" location="/Users/pbhatia/.ivy2/cache/org.scalanlp/epic-ner-en-conll_2.11/ivy-2015.1.25.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.scalanlp/epic-ner-en-conll_2.11/ivy-2015.1.25.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalanlp/epic-ner-en-conll_2.11/2015.1.25/epic-ner-en-conll_2.11-2015.1.25.pom"/>
+				<caller organisation="org.scalanlp" name="english_2.11" conf="default, compile, runtime, master" rev="2015.1.25" rev-constraint-default="2015.1.25" rev-constraint-dynamic="2015.1.25" callerrev="2015.1.25"/>
+				<caller organisation="default" name="parsers_2.11" conf="compile, runtime" rev="2015.1.25" rev-constraint-default="2015.1.25" rev-constraint-dynamic="2015.1.25" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="epic-ner-en-conll_2.11" type="jar" ext="jar" status="successful" details="" size="8050209" time="1405" location="/Users/pbhatia/.ivy2/cache/org.scalanlp/epic-ner-en-conll_2.11/jars/epic-ner-en-conll_2.11-2015.1.25.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalanlp/epic-ner-en-conll_2.11/2015.1.25/epic-ner-en-conll_2.11-2015.1.25.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalanlp" name="epic-pos-en_2.11">
+			<revision name="2015.1.25" status="release" pubdate="20150125191408" resolver="public" artresolver="public" homepage="http://scalanlp.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="81">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="1569" time="52" location="/Users/pbhatia/.ivy2/cache/org.scalanlp/epic-pos-en_2.11/ivy-2015.1.25.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.scalanlp/epic-pos-en_2.11/ivy-2015.1.25.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalanlp/epic-pos-en_2.11/2015.1.25/epic-pos-en_2.11-2015.1.25.pom"/>
+				<caller organisation="org.scalanlp" name="english_2.11" conf="default, compile, runtime, master" rev="2015.1.25" rev-constraint-default="2015.1.25" rev-constraint-dynamic="2015.1.25" callerrev="2015.1.25"/>
+				<caller organisation="default" name="parsers_2.11" conf="compile, runtime" rev="2015.1.25" rev-constraint-default="2015.1.25" rev-constraint-dynamic="2015.1.25" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="epic-pos-en_2.11" type="jar" ext="jar" status="successful" details="" size="78238216" time="14834" location="/Users/pbhatia/.ivy2/cache/org.scalanlp/epic-pos-en_2.11/jars/epic-pos-en_2.11-2015.1.25.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalanlp/epic-pos-en_2.11/2015.1.25/epic-pos-en_2.11-2015.1.25.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalanlp" name="epic-parser-en-span_2.11">
+			<revision name="2015.1.25" status="release" pubdate="20150125190907" resolver="public" artresolver="public" homepage="http://scalanlp.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="73">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="1593" time="148" location="/Users/pbhatia/.ivy2/cache/org.scalanlp/epic-parser-en-span_2.11/ivy-2015.1.25.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.scalanlp/epic-parser-en-span_2.11/ivy-2015.1.25.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalanlp/epic-parser-en-span_2.11/2015.1.25/epic-parser-en-span_2.11-2015.1.25.pom"/>
+				<caller organisation="org.scalanlp" name="english_2.11" conf="default, compile, runtime, master" rev="2015.1.25" rev-constraint-default="2015.1.25" rev-constraint-dynamic="2015.1.25" callerrev="2015.1.25"/>
+				<caller organisation="default" name="parsers_2.11" conf="compile, runtime" rev="2015.1.25" rev-constraint-default="2015.1.25" rev-constraint-dynamic="2015.1.25" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="epic-parser-en-span_2.11" type="jar" ext="jar" status="successful" details="" size="40994946" time="6858" location="/Users/pbhatia/.ivy2/cache/org.scalanlp/epic-parser-en-span_2.11/jars/epic-parser-en-span_2.11-2015.1.25.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalanlp/epic-parser-en-span_2.11/2015.1.25/epic-parser-en-span_2.11-2015.1.25.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalanlp" name="epic_2.11">
+			<revision name="0.3" status="release" pubdate="20150122024207" resolver="public" artresolver="public" homepage="http://scalanlp.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, default, default(compile)" position="74">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="4477" time="89" location="/Users/pbhatia/.ivy2/cache/org.scalanlp/epic_2.11/ivy-0.3.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.scalanlp/epic_2.11/ivy-0.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalanlp/epic_2.11/0.3/epic_2.11-0.3.pom"/>
+				<caller organisation="org.scalanlp" name="epic-parser-en-span_2.11" conf="default, compile, runtime, master" rev="0.3" rev-constraint-default="0.3" rev-constraint-dynamic="0.3" callerrev="2015.1.25"/>
+				<caller organisation="org.scalanlp" name="epic-pos-en_2.11" conf="default, compile, runtime, master" rev="0.3" rev-constraint-default="0.3" rev-constraint-dynamic="0.3" callerrev="2015.1.25"/>
+				<caller organisation="default" name="parsers_2.11" conf="compile, runtime" rev="0.2" rev-constraint-default="0.2" rev-constraint-dynamic="0.2" callerrev="1.0"/>
+				<caller organisation="org.scalanlp" name="epic-ner-en-conll_2.11" conf="default, compile, runtime, master" rev="0.3" rev-constraint-default="0.3" rev-constraint-dynamic="0.3" callerrev="2015.1.25"/>
+				<artifacts>
+					<artifact name="epic_2.11" type="jar" ext="jar" status="successful" details="" size="10332734" time="3475" location="/Users/pbhatia/.ivy2/cache/org.scalanlp/epic_2.11/jars/epic_2.11-0.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalanlp/epic_2.11/0.3/epic_2.11-0.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="0.2" status="release" pubdate="20140915171421" resolver="public" artresolver="public" evicted="latest-revision" evicted-reason="" homepage="http://scalanlp.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="-1">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="4273" time="82" location="/Users/pbhatia/.ivy2/cache/org.scalanlp/epic_2.11/ivy-0.2.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.scalanlp/epic_2.11/ivy-0.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalanlp/epic_2.11/0.2/epic_2.11-0.2.pom"/>
+				<evicted-by rev="0.3"/>
+				<caller organisation="default" name="parsers_2.11" conf="compile, runtime" rev="0.2" rev-constraint-default="0.2" rev-constraint-dynamic="0.2" callerrev="1.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="de.jflex" name="jflex">
+			<revision name="1.6.0" status="release" pubdate="20140620065749" resolver="public" artresolver="public" homepage="http://jflex.de/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="78">
+				<license name="BSD" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="successful" details="" size="9607" time="48" location="/Users/pbhatia/.ivy2/cache/de.jflex/jflex/ivy-1.6.0.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/de.jflex/jflex/ivy-1.6.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/de/jflex/jflex/1.6.0/jflex-1.6.0.pom"/>
+				<caller organisation="org.scalanlp" name="epic_2.11" conf="compile, runtime" rev="1.6.0" rev-constraint-default="1.6.0" rev-constraint-dynamic="1.6.0" callerrev="0.3"/>
+				<caller organisation="org.scalanlp" name="epic_2.11" conf="default, compile, runtime, master" rev="1.4.3" rev-constraint-default="1.4.3" rev-constraint-dynamic="1.4.3" callerrev="0.2"/>
+				<artifacts>
+					<artifact name="jflex" type="jar" ext="jar" status="successful" details="" size="1048692" time="274" location="/Users/pbhatia/.ivy2/cache/de.jflex/jflex/jars/jflex-1.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/de/jflex/jflex/1.6.0/jflex-1.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.4.3" status="release" pubdate="20090201013852" resolver="public" artresolver="public" evicted="latest-revision" evicted-reason="" homepage="http://jflex.de/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="GNU General Public License" url="http://jflex.de/copying.html#GPL"/>
+				<metadata-artifact status="successful" details="" size="2511" time="56" location="/Users/pbhatia/.ivy2/cache/de.jflex/jflex/ivy-1.4.3.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/de.jflex/jflex/ivy-1.4.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/de/jflex/jflex/1.4.3/jflex-1.4.3.pom"/>
+				<evicted-by rev="1.6.0"/>
+				<caller organisation="org.scalanlp" name="epic_2.11" conf="default, compile, runtime, master" rev="1.4.3" rev-constraint-default="1.4.3" rev-constraint-dynamic="1.4.3" callerrev="0.2"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.ant" name="ant">
+			<revision name="1.7.0" status="release" pubdate="20061222083731" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="79">
+				<metadata-artifact status="successful" details="" size="9758" time="43" location="/Users/pbhatia/.ivy2/cache/org.apache.ant/ant/ivy-1.7.0.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.apache.ant/ant/ivy-1.7.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/ant/ant/1.7.0/ant-1.7.0.pom"/>
+				<caller organisation="de.jflex" name="jflex" conf="compile, runtime" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.6.0"/>
+				<artifacts>
+					<artifact name="ant" type="jar" ext="jar" status="successful" details="" size="1289806" time="334" location="/Users/pbhatia/.ivy2/cache/org.apache.ant/ant/jars/ant-1.7.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/ant/ant/1.7.0/ant-1.7.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.ant" name="ant-launcher">
+			<revision name="1.7.0" status="release" pubdate="20061222083731" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="80">
+				<metadata-artifact status="successful" details="" size="2383" time="49" location="/Users/pbhatia/.ivy2/cache/org.apache.ant/ant-launcher/ivy-1.7.0.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.apache.ant/ant-launcher/ivy-1.7.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.7.0/ant-launcher-1.7.0.pom"/>
+				<caller organisation="org.apache.ant" name="ant" conf="compile, runtime" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.7.0"/>
+				<artifacts>
+					<artifact name="ant-launcher" type="jar" ext="jar" status="successful" details="" size="11734" time="47" location="/Users/pbhatia/.ivy2/cache/org.apache.ant/ant-launcher/jars/ant-launcher-1.7.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.7.0/ant-launcher-1.7.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalanlp" name="breeze_2.11">
+			<revision name="0.11-M0" status="release" pubdate="20150121041915" resolver="public" artresolver="public" homepage="http://scalanlp.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="75">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="4303" time="94" location="/Users/pbhatia/.ivy2/cache/org.scalanlp/breeze_2.11/ivy-0.11-M0.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.scalanlp/breeze_2.11/ivy-0.11-M0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalanlp/breeze_2.11/0.11-M0/breeze_2.11-0.11-M0.pom"/>
+				<caller organisation="org.scalanlp" name="nak_2.11" conf="compile, runtime" rev="0.9" rev-constraint-default="0.9" rev-constraint-dynamic="0.9" callerrev="1.3"/>
+				<caller organisation="org.scalanlp" name="epic_2.11" conf="compile, runtime" rev="0.11-M0" rev-constraint-default="0.11-M0" rev-constraint-dynamic="0.11-M0" callerrev="0.3"/>
+				<caller organisation="org.scalanlp" name="breeze-natives_2.11" conf="compile, runtime" rev="0.8" rev-constraint-default="0.8" rev-constraint-dynamic="0.8" callerrev="0.8"/>
+				<caller organisation="org.scalanlp" name="epic_2.11" conf="default, compile, runtime, master" rev="0.9" rev-constraint-default="0.9" rev-constraint-dynamic="0.9" callerrev="0.2"/>
+				<artifacts>
+					<artifact name="breeze_2.11" type="jar" ext="jar" status="successful" details="" size="13061520" time="2890" location="/Users/pbhatia/.ivy2/cache/org.scalanlp/breeze_2.11/jars/breeze_2.11-0.11-M0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalanlp/breeze_2.11/0.11-M0/breeze_2.11-0.11-M0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="0.9" status="release" pubdate="20140808132053" resolver="public" artresolver="public" evicted="latest-revision" evicted-reason="" homepage="http://scalanlp.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="4289" time="116" location="/Users/pbhatia/.ivy2/cache/org.scalanlp/breeze_2.11/ivy-0.9.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.scalanlp/breeze_2.11/ivy-0.9.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalanlp/breeze_2.11/0.9/breeze_2.11-0.9.pom"/>
+				<evicted-by rev="0.11-M0"/>
+				<caller organisation="org.scalanlp" name="nak_2.11" conf="compile, runtime" rev="0.9" rev-constraint-default="0.9" rev-constraint-dynamic="0.9" callerrev="1.3"/>
+				<caller organisation="org.scalanlp" name="breeze-natives_2.11" conf="compile, runtime" rev="0.8" rev-constraint-default="0.8" rev-constraint-dynamic="0.8" callerrev="0.8"/>
+				<caller organisation="org.scalanlp" name="epic_2.11" conf="default, compile, runtime, master" rev="0.9" rev-constraint-default="0.9" rev-constraint-dynamic="0.9" callerrev="0.2"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="0.8" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="0.9"/>
+				<caller organisation="org.scalanlp" name="breeze-natives_2.11" conf="compile, runtime" rev="0.8" rev-constraint-default="0.8" rev-constraint-dynamic="0.8" callerrev="0.8"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalanlp" name="breeze-macros_2.11">
+			<revision name="0.11-M0" status="release" pubdate="20150121041612" resolver="public" artresolver="public" homepage="http://scalanlp.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="76">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="2183" time="46" location="/Users/pbhatia/.ivy2/cache/org.scalanlp/breeze-macros_2.11/ivy-0.11-M0.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.scalanlp/breeze-macros_2.11/ivy-0.11-M0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.11/0.11-M0/breeze-macros_2.11-0.11-M0.pom"/>
+				<caller organisation="org.scalanlp" name="breeze_2.11" conf="compile, runtime" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.9"/>
+				<caller organisation="org.scalanlp" name="breeze_2.11" conf="compile, runtime" rev="0.11-M0" rev-constraint-default="0.11-M0" rev-constraint-dynamic="0.11-M0" callerrev="0.11-M0"/>
+				<artifacts>
+					<artifact name="breeze-macros_2.11" type="jar" ext="jar" status="successful" details="" size="135551" time="66" location="/Users/pbhatia/.ivy2/cache/org.scalanlp/breeze-macros_2.11/jars/breeze-macros_2.11-0.11-M0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.11/0.11-M0/breeze-macros_2.11-0.11-M0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="0.3.1" status="release" pubdate="20140424020945" resolver="public" artresolver="public" evicted="latest-revision" evicted-reason="" homepage="http://scalanlp.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="2181" time="73" location="/Users/pbhatia/.ivy2/cache/org.scalanlp/breeze-macros_2.11/ivy-0.3.1.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.scalanlp/breeze-macros_2.11/ivy-0.3.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.11/0.3.1/breeze-macros_2.11-0.3.1.pom"/>
+				<evicted-by rev="0.11-M0"/>
+				<caller organisation="org.scalanlp" name="breeze_2.11" conf="compile, runtime" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.9"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.11.4" status="release" pubdate="20141023113505" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.4/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="77">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="successful" details="" size="1568" time="62" location="/Users/pbhatia/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.11.4.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.11.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.4/scala-reflect-2.11.4.pom"/>
+				<caller organisation="org.rogach" name="scallop_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="0.9.5"/>
+				<caller organisation="com.typesafe.scala-logging" name="scala-logging-slf4j_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="2.1.2"/>
+				<caller organisation="org.spire-math" name="spire_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="0.7.4"/>
+				<caller organisation="org.spire-math" name="spire-macros_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="0.7.4"/>
+				<caller organisation="org.scalanlp" name="breeze-macros_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="0.3.1"/>
+				<caller organisation="org.scalanlp" name="breeze-macros_2.11" conf="compile, runtime" rev="2.11.4" rev-constraint-default="2.11.4" rev-constraint-dynamic="2.11.4" callerrev="0.11-M0"/>
+				<caller organisation="org.scalanlp" name="breeze-config_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="successful" details="" size="4387959" time="1050" location="/Users/pbhatia/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.4/scala-reflect-2.11.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.11.1" status="release" pubdate="20151125082215" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.1/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2812" time="0" location="/Users/pbhatia/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.11.1.xml" searched="false" origin-is-local="false" origin-location="file:/Users/pbhatia/Desktop/TypeSafeActivator/activator-dist-1.3.7%202/repository/org.scala-lang/scala-reflect/2.11.1/ivys/ivy.xml"/>
+				<evicted-by rev="2.11.4"/>
+				<caller organisation="org.rogach" name="scallop_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="0.9.5"/>
+				<caller organisation="com.typesafe.scala-logging" name="scala-logging-slf4j_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="2.1.2"/>
+				<caller organisation="org.spire-math" name="spire_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="0.7.4"/>
+				<caller organisation="org.spire-math" name="spire-macros_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="0.7.4"/>
+				<caller organisation="org.scalanlp" name="breeze-macros_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="0.3.1"/>
+				<caller organisation="org.scalanlp" name="breeze-config_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="0.9.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="2.11.0" status="release" pubdate="20140416051350" resolver="public" artresolver="public" evicted="latest-revision" evicted-reason="" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.0/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="successful" details="" size="1568" time="49" location="/Users/pbhatia/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.11.0.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.11.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.0/scala-reflect-2.11.0.pom"/>
+				<evicted-by rev="2.11.1"/>
+				<caller organisation="org.rogach" name="scallop_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="0.9.5"/>
+				<caller organisation="com.typesafe.scala-logging" name="scala-logging-slf4j_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="2.1.2"/>
+				<caller organisation="org.spire-math" name="spire_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="0.7.4"/>
+				<caller organisation="org.spire-math" name="spire-macros_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="0.7.4"/>
+				<caller organisation="org.scalanlp" name="breeze-macros_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="0.3.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-lang3">
+			<revision name="3.3.2" status="release" pubdate="20140406082129" resolver="public" artresolver="public" homepage="http://commons.apache.org/proper/commons-lang/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="52">
+				<metadata-artifact status="successful" details="" size="20377" time="58" location="/Users/pbhatia/.ivy2/cache/org.apache.commons/commons-lang3/ivy-3.3.2.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.apache.commons/commons-lang3/ivy-3.3.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.pom"/>
+				<caller organisation="org.scalanlp" name="epic_2.11" conf="compile, runtime" rev="3.3.2" rev-constraint-default="3.3.2" rev-constraint-dynamic="3.3.2" callerrev="0.3"/>
+				<caller organisation="org.scalanlp" name="epic_2.11" conf="default, compile, runtime, master" rev="3.3.2" rev-constraint-default="3.3.2" rev-constraint-dynamic="3.3.2" callerrev="0.2"/>
+				<artifacts>
+					<artifact name="commons-lang3" type="jar" ext="jar" status="successful" details="" size="412739" time="104" location="/Users/pbhatia/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.3.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-simple">
+			<revision name="1.7.6" status="release" pubdate="20140205173731" resolver="public" artresolver="public" homepage="http://www.slf4j.org" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="51">
+				<metadata-artifact status="successful" details="" size="1472" time="43" location="/Users/pbhatia/.ivy2/cache/org.slf4j/slf4j-simple/ivy-1.7.6.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.slf4j/slf4j-simple/ivy-1.7.6.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.6/slf4j-simple-1.7.6.pom"/>
+				<caller organisation="org.scalanlp" name="epic_2.11" conf="compile, runtime" rev="1.7.6" rev-constraint-default="1.7.6" rev-constraint-dynamic="1.7.6" callerrev="0.3"/>
+				<caller organisation="org.scalanlp" name="epic_2.11" conf="default, compile, runtime, master" rev="1.7.6" rev-constraint-default="1.7.6" rev-constraint-dynamic="1.7.6" callerrev="0.2"/>
+				<artifacts>
+					<artifact name="slf4j-simple" type="jar" ext="jar" status="successful" details="" size="10684" time="50" location="/Users/pbhatia/.ivy2/cache/org.slf4j/slf4j-simple/jars/slf4j-simple-1.7.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.6/slf4j-simple-1.7.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sourceforge.nekohtml" name="nekohtml">
+			<revision name="1.9.21" status="release" pubdate="20140602062453" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://nekohtml.sourceforge.net/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="48">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2568" time="0" location="/Users/pbhatia/.ivy2/cache/net.sourceforge.nekohtml/nekohtml/ivy-1.9.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/sourceforge/nekohtml/nekohtml/1.9.21/nekohtml-1.9.21.pom"/>
+				<caller organisation="org.scalanlp" name="epic_2.11" conf="compile, runtime" rev="1.9.21" rev-constraint-default="1.9.21" rev-constraint-dynamic="1.9.21" callerrev="0.3"/>
+				<caller organisation="org.scalanlp" name="epic_2.11" conf="default, compile, runtime, master" rev="1.9.21" rev-constraint-default="1.9.21" rev-constraint-dynamic="1.9.21" callerrev="0.2"/>
+				<artifacts>
+					<artifact name="nekohtml" type="jar" ext="jar" status="no" details="" size="125150" time="0" location="/Users/pbhatia/.ivy2/cache/net.sourceforge.nekohtml/nekohtml/jars/nekohtml-1.9.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sourceforge/nekohtml/nekohtml/1.9.21/nekohtml-1.9.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xerces" name="xercesImpl">
+			<revision name="2.10.0" status="release" pubdate="20151125084147" resolver="activator-local" artresolver="activator-local" homepage="https://xerces.apache.org/xerces2-j/" downloaded="false" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="49">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4272" time="0" location="/Users/pbhatia/.ivy2/cache/xerces/xercesImpl/ivy-2.10.0.xml" searched="true" original-local-location="/Users/pbhatia/Desktop/TypeSafeActivator/activator-dist-1.3.7/repository/xerces/xercesImpl/2.10.0/ivys/ivy.xml" origin-is-local="true" origin-location="/Users/pbhatia/Desktop/TypeSafeActivator/activator-dist-1.3.7/repository/xerces/xercesImpl/2.10.0/ivys/ivy.xml"/>
+				<caller organisation="com.drewnoakes" name="metadata-extractor" conf="compile, runtime" rev="2.8.1" rev-constraint-default="2.8.1" rev-constraint-dynamic="2.8.1" callerrev="2.6.2"/>
+				<caller organisation="net.sourceforge.nekohtml" name="nekohtml" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="1.9.21"/>
+				<artifacts>
+					<artifact name="xercesImpl" type="jar" ext="jar" status="no" details="" size="1363159" time="0" location="/Users/pbhatia/Desktop/TypeSafeActivator/activator-dist-1.3.7/repository/xerces/xercesImpl/2.10.0/jars/xercesImpl.jar">
+						<origin-location is-local="true" location="/Users/pbhatia/Desktop/TypeSafeActivator/activator-dist-1.3.7/repository/xerces/xercesImpl/2.10.0/jars/xercesImpl.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.8.1" status="release" pubdate="20061007080232" resolver="public" artresolver="public" evicted="latest-revision" evicted-reason="" homepage="http://xerces.apache.org/xerces2-j/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<metadata-artifact status="successful" details="" size="2207" time="46" location="/Users/pbhatia/.ivy2/cache/xerces/xercesImpl/ivy-2.8.1.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/xerces/xercesImpl/ivy-2.8.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/xerces/xercesImpl/2.8.1/xercesImpl-2.8.1.pom"/>
+				<evicted-by rev="2.10.0"/>
+				<caller organisation="com.drewnoakes" name="metadata-extractor" conf="compile, runtime" rev="2.8.1" rev-constraint-default="2.8.1" rev-constraint-dynamic="2.8.1" callerrev="2.6.2"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xml-apis" name="xml-apis">
+			<revision name="1.4.01" status="release" pubdate="20151123133043" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://xml.apache.org/commons/components/external/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="50">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="The SAX License" url="http://www.saxproject.org/copying.html"/>
+				<license name="The W3C License" url="http://www.w3.org/TR/2004/REC-DOM-Level-3-Core-20040407/java-binding.zip"/>
+				<metadata-artifact status="no" details="" size="3245" time="0" location="/Users/pbhatia/.ivy2/cache/xml-apis/xml-apis/ivy-1.4.01.xml" searched="false" origin-is-local="false" origin-location="file:/Users/pbhatia/Desktop/TypeSafeActivator/activator-dist-1.3.7%202/repository/xml-apis/xml-apis/1.4.01/ivys/ivy.xml"/>
+				<caller organisation="xerces" name="xercesImpl" conf="compile, runtime" rev="1.4.01" rev-constraint-default="1.4.01" rev-constraint-dynamic="1.4.01" callerrev="2.10.0"/>
+				<caller organisation="xerces" name="xercesImpl" conf="compile" rev="1.3.03" rev-constraint-default="1.3.03" rev-constraint-dynamic="1.3.03" callerrev="2.8.1"/>
+				<artifacts>
+					<artifact name="xml-apis" type="jar" ext="jar" status="no" details="" size="220536" time="0" location="/Users/pbhatia/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar">
+						<origin-location is-local="false" location="file:/Users/pbhatia/Desktop/TypeSafeActivator/activator-dist-1.3.7%202/repository/xml-apis/xml-apis/1.4.01/jars/xml-apis.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.3.03" status="release" pubdate="20080831074524" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://xml.apache.org/commons/#external" downloaded="false" searched="false" default="false" conf="compile, master(compile), compile(*), master" position="-1">
+				<metadata-artifact status="no" details="" size="2225" time="0" location="/Users/pbhatia/.ivy2/cache/xml-apis/xml-apis/ivy-1.3.03.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/xml-apis/xml-apis/1.3.03/xml-apis-1.3.03.pom"/>
+				<evicted-by rev="1.4.01"/>
+				<caller organisation="xerces" name="xercesImpl" conf="compile" rev="1.3.03" rev-constraint-default="1.3.03" rev-constraint-dynamic="1.3.03" callerrev="2.8.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.tika" name="tika-parsers">
+			<revision name="1.5" status="release" pubdate="20140209164026" resolver="public" artresolver="public" homepage="http://tika.apache.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<metadata-artifact status="successful" details="" size="9819" time="46" location="/Users/pbhatia/.ivy2/cache/org.apache.tika/tika-parsers/ivy-1.5.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.apache.tika/tika-parsers/ivy-1.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/tika/tika-parsers/1.5/tika-parsers-1.5.pom"/>
+				<caller organisation="org.scalanlp" name="epic_2.11" conf="compile, runtime" rev="1.5" rev-constraint-default="1.5" rev-constraint-dynamic="1.5" callerrev="0.3"/>
+				<caller organisation="org.scalanlp" name="epic_2.11" conf="default, compile, runtime, master" rev="1.5" rev-constraint-default="1.5" rev-constraint-dynamic="1.5" callerrev="0.2"/>
+				<artifacts>
+					<artifact name="tika-parsers" type="bundle" ext="jar" status="successful" details="" size="523677" time="122" location="/Users/pbhatia/.ivy2/cache/org.apache.tika/tika-parsers/bundles/tika-parsers-1.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/tika/tika-parsers/1.5/tika-parsers-1.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.uwyn" name="jhighlight">
+			<revision name="1.0" status="release" pubdate="20060802111917" resolver="public" artresolver="public" homepage="https://jhighlight.dev.java.net/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="47">
+				<license name="CDDL, v1.0" url="http://www.opensource.org/licenses/cddl1.php"/>
+				<license name="LGPL, v2.1 or later" url="http://www.opensource.org/licenses/lgpl-license.php"/>
+				<metadata-artifact status="successful" details="" size="2237" time="52" location="/Users/pbhatia/.ivy2/cache/com.uwyn/jhighlight/ivy-1.0.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/com.uwyn/jhighlight/ivy-1.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/uwyn/jhighlight/1.0/jhighlight-1.0.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.5"/>
+				<artifacts>
+					<artifact name="jhighlight" type="jar" ext="jar" status="successful" details="" size="93310" time="48" location="/Users/pbhatia/.ivy2/cache/com.uwyn/jhighlight/jars/jhighlight-1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/uwyn/jhighlight/1.0/jhighlight-1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.googlecode.juniversalchardet" name="juniversalchardet">
+			<revision name="1.0.3" status="release" pubdate="20110919133824" resolver="public" artresolver="public" homepage="http://juniversalchardet.googlecode.com/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="46">
+				<license name="Mozilla Public License 1.1 (MPL 1.1)" url="http://www.mozilla.org/MPL/MPL-1.1.html"/>
+				<metadata-artifact status="successful" details="" size="1463" time="43" location="/Users/pbhatia/.ivy2/cache/com.googlecode.juniversalchardet/juniversalchardet/ivy-1.0.3.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/com.googlecode.juniversalchardet/juniversalchardet/ivy-1.0.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="1.5"/>
+				<artifacts>
+					<artifact name="juniversalchardet" type="jar" ext="jar" status="successful" details="" size="220813" time="87" location="/Users/pbhatia/.ivy2/cache/com.googlecode.juniversalchardet/juniversalchardet/jars/juniversalchardet-1.0.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="rome" name="rome">
+			<revision name="0.9" status="release" pubdate="20070511162630" resolver="public" artresolver="public" homepage="https://rome.dev.java.net/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="44">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="3653" time="51" location="/Users/pbhatia/.ivy2/cache/rome/rome/ivy-0.9.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/rome/rome/ivy-0.9.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/rome/rome/0.9/rome-0.9.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="0.9" rev-constraint-default="0.9" rev-constraint-dynamic="0.9" callerrev="1.5"/>
+				<artifacts>
+					<artifact name="rome" type="jar" ext="jar" status="successful" details="" size="208025" time="78" location="/Users/pbhatia/.ivy2/cache/rome/rome/jars/rome-0.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/rome/rome/0.9/rome-0.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="jdom" name="jdom">
+			<revision name="1.0" status="release" pubdate="20051222072056" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="45">
+				<metadata-artifact status="successful" details="" size="1170" time="47" location="/Users/pbhatia/.ivy2/cache/jdom/jdom/ivy-1.0.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/jdom/jdom/ivy-1.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jdom/jdom/1.0/jdom-1.0.pom"/>
+				<caller organisation="rome" name="rome" conf="compile, runtime" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="0.9"/>
+				<artifacts>
+					<artifact name="jdom" type="jar" ext="jar" status="successful" details="" size="153253" time="90" location="/Users/pbhatia/.ivy2/cache/jdom/jdom/jars/jdom-1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jdom/jdom/1.0/jdom-1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="de.l3s.boilerpipe" name="boilerpipe">
+			<revision name="1.1.0" status="release" pubdate="20101103164113" resolver="public" artresolver="public" homepage="http://code.google.com/p/boilerpipe/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="43">
+				<license name="Apache License 2.0"/>
+				<metadata-artifact status="successful" details="" size="1814" time="46" location="/Users/pbhatia/.ivy2/cache/de.l3s.boilerpipe/boilerpipe/ivy-1.1.0.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/de.l3s.boilerpipe/boilerpipe/ivy-1.1.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/de/l3s/boilerpipe/boilerpipe/1.1.0/boilerpipe-1.1.0.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="1.5"/>
+				<caller organisation="org.scalanlp" name="epic_2.11" conf="compile, runtime" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="0.3"/>
+				<caller organisation="org.scalanlp" name="epic_2.11" conf="default, compile, runtime, master" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="0.2"/>
+				<artifacts>
+					<artifact name="boilerpipe" type="jar" ext="jar" status="successful" details="" size="92027" time="52" location="/Users/pbhatia/.ivy2/cache/de.l3s.boilerpipe/boilerpipe/jars/boilerpipe-1.1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/de/l3s/boilerpipe/boilerpipe/1.1.0/boilerpipe-1.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.drewnoakes" name="metadata-extractor">
+			<revision name="2.6.2" status="release" pubdate="20120719162102" resolver="public" artresolver="public" homepage="http://code.google.com/p/metadata-extractor/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="41">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="3064" time="51" location="/Users/pbhatia/.ivy2/cache/com.drewnoakes/metadata-extractor/ivy-2.6.2.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/com.drewnoakes/metadata-extractor/ivy-2.6.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/drewnoakes/metadata-extractor/2.6.2/metadata-extractor-2.6.2.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="2.6.2" rev-constraint-default="2.6.2" rev-constraint-dynamic="2.6.2" callerrev="1.5"/>
+				<artifacts>
+					<artifact name="metadata-extractor" type="jar" ext="jar" status="successful" details="" size="211185" time="91" location="/Users/pbhatia/.ivy2/cache/com.drewnoakes/metadata-extractor/jars/metadata-extractor-2.6.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/drewnoakes/metadata-extractor/2.6.2/metadata-extractor-2.6.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.adobe.xmp" name="xmpcore">
+			<revision name="5.1.2" status="release" pubdate="20120703061504" resolver="public" artresolver="public" homepage="http://www.adobe.com/devnet/xmp.html" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="42">
+				<license name="The BSD License" url="http://www.adobe.com/devnet/xmp/library/eula-xmp-library-java.html"/>
+				<metadata-artifact status="successful" details="" size="1127" time="51" location="/Users/pbhatia/.ivy2/cache/com.adobe.xmp/xmpcore/ivy-5.1.2.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/com.adobe.xmp/xmpcore/ivy-5.1.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/adobe/xmp/xmpcore/5.1.2/xmpcore-5.1.2.pom"/>
+				<caller organisation="com.drewnoakes" name="metadata-extractor" conf="compile, runtime" rev="5.1.2" rev-constraint-default="5.1.2" rev-constraint-dynamic="5.1.2" callerrev="2.6.2"/>
+				<artifacts>
+					<artifact name="xmpcore" type="jar" ext="jar" status="successful" details="" size="117333" time="62" location="/Users/pbhatia/.ivy2/cache/com.adobe.xmp/xmpcore/jars/xmpcore-5.1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/adobe/xmp/xmpcore/5.1.2/xmpcore-5.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm-debug-all">
+			<revision name="4.1" status="release" pubdate="20121014113958" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="40">
+				<metadata-artifact status="successful" details="" size="1981" time="59" location="/Users/pbhatia/.ivy2/cache/org.ow2.asm/asm-debug-all/ivy-4.1.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.ow2.asm/asm-debug-all/ivy-4.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm-debug-all/4.1/asm-debug-all-4.1.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="1.5"/>
+				<artifacts>
+					<artifact name="asm-debug-all" type="jar" ext="jar" status="successful" details="" size="342664" time="101" location="/Users/pbhatia/.ivy2/cache/org.ow2.asm/asm-debug-all/jars/asm-debug-all-4.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm-debug-all/4.1/asm-debug-all-4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ccil.cowan.tagsoup" name="tagsoup">
+			<revision name="1.2.1" status="release" pubdate="20110822130503" resolver="public" artresolver="public" homepage="http://home.ccil.org/~cowan/XML/tagsoup/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="1223" time="47" location="/Users/pbhatia/.ivy2/cache/org.ccil.cowan.tagsoup/tagsoup/ivy-1.2.1.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.ccil.cowan.tagsoup/tagsoup/ivy-1.2.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="1.5"/>
+				<artifacts>
+					<artifact name="tagsoup" type="jar" ext="jar" status="successful" details="" size="90722" time="50" location="/Users/pbhatia/.ivy2/cache/org.ccil.cowan.tagsoup/tagsoup/jars/tagsoup-1.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.geronimo.specs" name="geronimo-stax-api_1.0_spec">
+			<revision name="1.0.1" status="release" pubdate="20071227085214" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
+				<metadata-artifact status="successful" details="" size="2166" time="57" location="/Users/pbhatia/.ivy2/cache/org.apache.geronimo.specs/geronimo-stax-api_1.0_spec/ivy-1.0.1.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.apache.geronimo.specs/geronimo-stax-api_1.0_spec/ivy-1.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0.1/geronimo-stax-api_1.0_spec-1.0.1.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="1.5"/>
+				<artifacts>
+					<artifact name="geronimo-stax-api_1.0_spec" type="bundle" ext="jar" status="successful" details="" size="28804" time="51" location="/Users/pbhatia/.ivy2/cache/org.apache.geronimo.specs/geronimo-stax-api_1.0_spec/bundles/geronimo-stax-api_1.0_spec-1.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0.1/geronimo-stax-api_1.0_spec-1.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.poi" name="poi-ooxml">
+			<revision name="3.10-beta2" status="release" pubdate="20130909134458" resolver="public" artresolver="public" homepage="http://poi.apache.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="2729" time="50" location="/Users/pbhatia/.ivy2/cache/org.apache.poi/poi-ooxml/ivy-3.10-beta2.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.apache.poi/poi-ooxml/ivy-3.10-beta2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml/3.10-beta2/poi-ooxml-3.10-beta2.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="3.10-beta2" rev-constraint-default="3.10-beta2" rev-constraint-dynamic="3.10-beta2" callerrev="1.5"/>
+				<artifacts>
+					<artifact name="poi-ooxml" type="jar" ext="jar" status="successful" details="" size="1002756" time="198" location="/Users/pbhatia/.ivy2/cache/org.apache.poi/poi-ooxml/jars/poi-ooxml-3.10-beta2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml/3.10-beta2/poi-ooxml-3.10-beta2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="dom4j" name="dom4j">
+			<revision name="1.6.1" status="release" pubdate="20060210073318" resolver="public" artresolver="public" homepage="http://dom4j.org" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
+				<metadata-artifact status="successful" details="" size="6765" time="76" location="/Users/pbhatia/.ivy2/cache/dom4j/dom4j/ivy-1.6.1.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/dom4j/dom4j/ivy-1.6.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.pom"/>
+				<caller organisation="org.apache.poi" name="poi-ooxml" conf="compile, runtime" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="3.10-beta2"/>
+				<artifacts>
+					<artifact name="dom4j" type="jar" ext="jar" status="successful" details="" size="313898" time="108" location="/Users/pbhatia/.ivy2/cache/dom4j/dom4j/jars/dom4j-1.6.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.poi" name="poi-ooxml-schemas">
+			<revision name="3.10-beta2" status="release" pubdate="20130909134652" resolver="public" artresolver="public" homepage="http://poi.apache.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="2439" time="59" location="/Users/pbhatia/.ivy2/cache/org.apache.poi/poi-ooxml-schemas/ivy-3.10-beta2.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.apache.poi/poi-ooxml-schemas/ivy-3.10-beta2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml-schemas/3.10-beta2/poi-ooxml-schemas-3.10-beta2.pom"/>
+				<caller organisation="org.apache.poi" name="poi-ooxml" conf="compile, runtime" rev="3.10-beta2" rev-constraint-default="3.10-beta2" rev-constraint-dynamic="3.10-beta2" callerrev="3.10-beta2"/>
+				<artifacts>
+					<artifact name="poi-ooxml-schemas" type="jar" ext="jar" status="successful" details="" size="4922434" time="961" location="/Users/pbhatia/.ivy2/cache/org.apache.poi/poi-ooxml-schemas/jars/poi-ooxml-schemas-3.10-beta2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml-schemas/3.10-beta2/poi-ooxml-schemas-3.10-beta2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.xmlbeans" name="xmlbeans">
+			<revision name="2.3.0" status="release" pubdate="20070703221632" resolver="public" artresolver="public" homepage="http://xmlbeans.apache.org" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="36">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="4966" time="70" location="/Users/pbhatia/.ivy2/cache/org.apache.xmlbeans/xmlbeans/ivy-2.3.0.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.apache.xmlbeans/xmlbeans/ivy-2.3.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.pom"/>
+				<caller organisation="org.apache.poi" name="poi-ooxml-schemas" conf="compile, runtime" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="3.10-beta2"/>
+				<artifacts>
+					<artifact name="xmlbeans" type="jar" ext="jar" status="successful" details="" size="2666695" time="635" location="/Users/pbhatia/.ivy2/cache/org.apache.xmlbeans/xmlbeans/jars/xmlbeans-2.3.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.poi" name="poi-scratchpad">
+			<revision name="3.10-beta2" status="release" pubdate="20130909134044" resolver="public" artresolver="public" homepage="http://poi.apache.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="2434" time="51" location="/Users/pbhatia/.ivy2/cache/org.apache.poi/poi-scratchpad/ivy-3.10-beta2.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.apache.poi/poi-scratchpad/ivy-3.10-beta2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/poi/poi-scratchpad/3.10-beta2/poi-scratchpad-3.10-beta2.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="3.10-beta2" rev-constraint-default="3.10-beta2" rev-constraint-dynamic="3.10-beta2" callerrev="1.5"/>
+				<artifacts>
+					<artifact name="poi-scratchpad" type="jar" ext="jar" status="successful" details="" size="1246622" time="239" location="/Users/pbhatia/.ivy2/cache/org.apache.poi/poi-scratchpad/jars/poi-scratchpad-3.10-beta2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/poi/poi-scratchpad/3.10-beta2/poi-scratchpad-3.10-beta2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.poi" name="poi">
+			<revision name="3.10-beta2" status="release" pubdate="20130909130438" resolver="public" artresolver="public" homepage="http://poi.apache.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="2832" time="50" location="/Users/pbhatia/.ivy2/cache/org.apache.poi/poi/ivy-3.10-beta2.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.apache.poi/poi/ivy-3.10-beta2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/poi/poi/3.10-beta2/poi-3.10-beta2.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="3.10-beta2" rev-constraint-default="3.10-beta2" rev-constraint-dynamic="3.10-beta2" callerrev="1.5"/>
+				<caller organisation="org.apache.poi" name="poi-scratchpad" conf="compile, runtime" rev="3.10-beta2" rev-constraint-default="3.10-beta2" rev-constraint-dynamic="3.10-beta2" callerrev="3.10-beta2"/>
+				<caller organisation="org.apache.poi" name="poi-ooxml" conf="compile, runtime" rev="3.10-beta2" rev-constraint-default="3.10-beta2" rev-constraint-dynamic="3.10-beta2" callerrev="3.10-beta2"/>
+				<artifacts>
+					<artifact name="poi" type="jar" ext="jar" status="successful" details="" size="1926741" time="455" location="/Users/pbhatia/.ivy2/cache/org.apache.poi/poi/jars/poi-3.10-beta2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/poi/poi/3.10-beta2/poi-3.10-beta2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bouncycastle" name="bcmail-jdk15">
+			<revision name="1.45" status="release" pubdate="20100110233102" resolver="public" artresolver="public" homepage="http://www.bouncycastle.org/java.html" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+				<license name="Bouncy Castle Licence" url="http://www.bouncycastle.org/licence.html"/>
+				<metadata-artifact status="successful" details="" size="1210" time="50" location="/Users/pbhatia/.ivy2/cache/org.bouncycastle/bcmail-jdk15/ivy-1.45.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.bouncycastle/bcmail-jdk15/ivy-1.45.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/bouncycastle/bcmail-jdk15/1.45/bcmail-jdk15-1.45.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="1.45" rev-constraint-default="1.45" rev-constraint-dynamic="1.45" callerrev="1.5"/>
+				<artifacts>
+					<artifact name="bcmail-jdk15" type="jar" ext="jar" status="successful" details="" size="229116" time="156" location="/Users/pbhatia/.ivy2/cache/org.bouncycastle/bcmail-jdk15/jars/bcmail-jdk15-1.45.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bouncycastle/bcmail-jdk15/1.45/bcmail-jdk15-1.45.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bouncycastle" name="bcprov-jdk15">
+			<revision name="1.45" status="release" pubdate="20100110233027" resolver="public" artresolver="public" homepage="http://www.bouncycastle.org/java.html" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+				<license name="Bouncy Castle Licence" url="http://www.bouncycastle.org/licence.html"/>
+				<metadata-artifact status="successful" details="" size="819" time="59" location="/Users/pbhatia/.ivy2/cache/org.bouncycastle/bcprov-jdk15/ivy-1.45.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.bouncycastle/bcprov-jdk15/ivy-1.45.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15/1.45/bcprov-jdk15-1.45.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="1.45" rev-constraint-default="1.45" rev-constraint-dynamic="1.45" callerrev="1.5"/>
+				<caller organisation="org.bouncycastle" name="bcmail-jdk15" conf="compile, runtime" rev="1.45" rev-constraint-default="1.45" rev-constraint-dynamic="1.45" callerrev="1.45"/>
+				<artifacts>
+					<artifact name="bcprov-jdk15" type="jar" ext="jar" status="successful" details="" size="1663318" time="796" location="/Users/pbhatia/.ivy2/cache/org.bouncycastle/bcprov-jdk15/jars/bcprov-jdk15-1.45.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15/1.45/bcprov-jdk15-1.45.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.pdfbox" name="pdfbox">
+			<revision name="1.8.4" status="release" pubdate="20140127130206" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<metadata-artifact status="successful" details="" size="5288" time="51" location="/Users/pbhatia/.ivy2/cache/org.apache.pdfbox/pdfbox/ivy-1.8.4.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.apache.pdfbox/pdfbox/ivy-1.8.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/pdfbox/pdfbox/1.8.4/pdfbox-1.8.4.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="1.8.4" rev-constraint-default="1.8.4" rev-constraint-dynamic="1.8.4" callerrev="1.5"/>
+				<artifacts>
+					<artifact name="pdfbox" type="bundle" ext="jar" status="successful" details="" size="3997494" time="955" location="/Users/pbhatia/.ivy2/cache/org.apache.pdfbox/pdfbox/bundles/pdfbox-1.8.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/pdfbox/pdfbox/1.8.4/pdfbox-1.8.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.pdfbox" name="jempbox">
+			<revision name="1.8.4" status="release" pubdate="20140127130010" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+				<metadata-artifact status="successful" details="" size="2003" time="52" location="/Users/pbhatia/.ivy2/cache/org.apache.pdfbox/jempbox/ivy-1.8.4.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.apache.pdfbox/jempbox/ivy-1.8.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/pdfbox/jempbox/1.8.4/jempbox-1.8.4.pom"/>
+				<caller organisation="org.apache.pdfbox" name="pdfbox" conf="compile, runtime" rev="1.8.4" rev-constraint-default="1.8.4" rev-constraint-dynamic="1.8.4" callerrev="1.8.4"/>
+				<artifacts>
+					<artifact name="jempbox" type="bundle" ext="jar" status="successful" details="" size="50980" time="64" location="/Users/pbhatia/.ivy2/cache/org.apache.pdfbox/jempbox/bundles/jempbox-1.8.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/pdfbox/jempbox/1.8.4/jempbox-1.8.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.pdfbox" name="fontbox">
+			<revision name="1.8.4" status="release" pubdate="20140127125945" resolver="public" artresolver="public" homepage="http://pdfbox.apache.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<metadata-artifact status="successful" details="" size="2199" time="57" location="/Users/pbhatia/.ivy2/cache/org.apache.pdfbox/fontbox/ivy-1.8.4.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.apache.pdfbox/fontbox/ivy-1.8.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/pdfbox/fontbox/1.8.4/fontbox-1.8.4.pom"/>
+				<caller organisation="org.apache.pdfbox" name="pdfbox" conf="compile, runtime" rev="1.8.4" rev-constraint-default="1.8.4" rev-constraint-dynamic="1.8.4" callerrev="1.8.4"/>
+				<artifacts>
+					<artifact name="fontbox" type="bundle" ext="jar" status="successful" details="" size="205430" time="68" location="/Users/pbhatia/.ivy2/cache/org.apache.pdfbox/fontbox/bundles/fontbox-1.8.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/pdfbox/fontbox/1.8.4/fontbox-1.8.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.1.1" status="release" pubdate="20080831074520" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/logging" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<metadata-artifact status="no" details="" size="3971" time="0" location="/Users/pbhatia/.ivy2/cache/commons-logging/commons-logging/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom"/>
+				<caller organisation="org.apache.pdfbox" name="pdfbox" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.8.4"/>
+				<caller organisation="org.apache.pdfbox" name="fontbox" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.8.4"/>
+				<artifacts>
+					<artifact name="commons-logging" type="jar" ext="jar" status="no" details="" size="60686" time="0" location="/Users/pbhatia/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.5" status="release" pubdate="20110324213406" resolver="public" artresolver="public" homepage="http://commons.apache.org/codec/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<metadata-artifact status="successful" details="" size="10213" time="50" location="/Users/pbhatia/.ivy2/cache/commons-codec/commons-codec/ivy-1.5.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/commons-codec/commons-codec/ivy-1.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.5/commons-codec-1.5.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="1.5" rev-constraint-default="1.5" rev-constraint-dynamic="1.5" callerrev="1.5"/>
+				<caller organisation="org.apache.poi" name="poi" conf="compile, runtime" rev="1.5" rev-constraint-default="1.5" rev-constraint-dynamic="1.5" callerrev="3.10-beta2"/>
+				<artifacts>
+					<artifact name="commons-codec" type="jar" ext="jar" status="successful" details="" size="73098" time="130" location="/Users/pbhatia/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.5/commons-codec-1.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-compress">
+			<revision name="1.5" status="release" pubdate="20130311021708" resolver="public" artresolver="public" homepage="http://commons.apache.org/compress/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<metadata-artifact status="successful" details="" size="10609" time="46" location="/Users/pbhatia/.ivy2/cache/org.apache.commons/commons-compress/ivy-1.5.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.apache.commons/commons-compress/ivy-1.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.5/commons-compress-1.5.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="1.5" rev-constraint-default="1.5" rev-constraint-dynamic="1.5" callerrev="1.5"/>
+				<artifacts>
+					<artifact name="commons-compress" type="jar" ext="jar" status="successful" details="" size="256241" time="142" location="/Users/pbhatia/.ivy2/cache/org.apache.commons/commons-compress/jars/commons-compress-1.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.5/commons-compress-1.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.tukaani" name="xz">
+			<revision name="1.2" status="release" pubdate="20130129092700" resolver="public" artresolver="public" homepage="http://tukaani.org/xz/java.html" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="Public Domain"/>
+				<metadata-artifact status="successful" details="" size="1904" time="46" location="/Users/pbhatia/.ivy2/cache/org.tukaani/xz/ivy-1.2.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.tukaani/xz/ivy-1.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/tukaani/xz/1.2/xz-1.2.pom"/>
+				<caller organisation="org.apache.commons" name="commons-compress" conf="compile, runtime" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="1.5"/>
+				<artifacts>
+					<artifact name="xz" type="jar" ext="jar" status="successful" details="" size="94816" time="72" location="/Users/pbhatia/.ivy2/cache/org.tukaani/xz/jars/xz-1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/tukaani/xz/1.2/xz-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.james" name="apache-mime4j-dom">
+			<revision name="0.7.2" status="release" pubdate="20120107091138" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<metadata-artifact status="successful" details="" size="3352" time="62" location="/Users/pbhatia/.ivy2/cache/org.apache.james/apache-mime4j-dom/ivy-0.7.2.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.apache.james/apache-mime4j-dom/ivy-0.7.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/james/apache-mime4j-dom/0.7.2/apache-mime4j-dom-0.7.2.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="0.7.2" rev-constraint-default="0.7.2" rev-constraint-dynamic="0.7.2" callerrev="1.5"/>
+				<artifacts>
+					<artifact name="apache-mime4j-dom" type="jar" ext="jar" status="successful" details="" size="304810" time="214" location="/Users/pbhatia/.ivy2/cache/org.apache.james/apache-mime4j-dom/jars/apache-mime4j-dom-0.7.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/james/apache-mime4j-dom/0.7.2/apache-mime4j-dom-0.7.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.james" name="apache-mime4j-core">
+			<revision name="0.7.2" status="release" pubdate="20120107090924" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<metadata-artifact status="successful" details="" size="2407" time="56" location="/Users/pbhatia/.ivy2/cache/org.apache.james/apache-mime4j-core/ivy-0.7.2.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.apache.james/apache-mime4j-core/ivy-0.7.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/james/apache-mime4j-core/0.7.2/apache-mime4j-core-0.7.2.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="0.7.2" rev-constraint-default="0.7.2" rev-constraint-dynamic="0.7.2" callerrev="1.5"/>
+				<caller organisation="org.apache.james" name="apache-mime4j-dom" conf="compile, runtime" rev="0.7.2" rev-constraint-default="0.7.2" rev-constraint-dynamic="0.7.2" callerrev="0.7.2"/>
+				<artifacts>
+					<artifact name="apache-mime4j-core" type="jar" ext="jar" status="successful" details="" size="95536" time="228" location="/Users/pbhatia/.ivy2/cache/org.apache.james/apache-mime4j-core/jars/apache-mime4j-core-0.7.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/james/apache-mime4j-core/0.7.2/apache-mime4j-core-0.7.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.gagravarr" name="vorbis-java-tika">
+			<revision name="0.1" status="release" pubdate="20120203110651" resolver="public" artresolver="public" homepage="https://github.com/Gagravarr/VorbisJava" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<metadata-artifact status="successful" details="" size="1961" time="69" location="/Users/pbhatia/.ivy2/cache/org.gagravarr/vorbis-java-tika/ivy-0.1.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.gagravarr/vorbis-java-tika/ivy-0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/gagravarr/vorbis-java-tika/0.1/vorbis-java-tika-0.1.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="0.1" rev-constraint-default="0.1" rev-constraint-dynamic="0.1" callerrev="1.5"/>
+				<artifacts>
+					<artifact name="vorbis-java-tika" type="jar" ext="jar" status="successful" details="" size="14752" time="104" location="/Users/pbhatia/.ivy2/cache/org.gagravarr/vorbis-java-tika/jars/vorbis-java-tika-0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/gagravarr/vorbis-java-tika/0.1/vorbis-java-tika-0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.gagravarr" name="vorbis-java-core">
+			<revision name="0.1" status="release" pubdate="20120203110542" resolver="public" artresolver="public" homepage="https://github.com/Gagravarr/VorbisJava" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<metadata-artifact status="successful" details="" size="1633" time="49" location="/Users/pbhatia/.ivy2/cache/org.gagravarr/vorbis-java-core/ivy-0.1.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.gagravarr/vorbis-java-core/ivy-0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/gagravarr/vorbis-java-core/0.1/vorbis-java-core-0.1.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="0.1" rev-constraint-default="0.1" rev-constraint-dynamic="0.1" callerrev="1.5"/>
+				<caller organisation="org.gagravarr" name="vorbis-java-tika" conf="compile, runtime" rev="0.1" rev-constraint-default="0.1" rev-constraint-dynamic="0.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="vorbis-java-core" type="jar" ext="jar" extra-classifier="tests" status="successful" details="" size="30301" time="74" location="/Users/pbhatia/.ivy2/cache/org.gagravarr/vorbis-java-core/jars/vorbis-java-core-0.1-tests.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/gagravarr/vorbis-java-core/0.1/vorbis-java-core-0.1-tests.jar"/>
+					</artifact>
+					<artifact name="vorbis-java-core" type="jar" ext="jar" status="successful" details="" size="47478" time="50" location="/Users/pbhatia/.ivy2/cache/org.gagravarr/vorbis-java-core/jars/vorbis-java-core-0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/gagravarr/vorbis-java-core/0.1/vorbis-java-core-0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.tika" name="tika-core">
+			<revision name="1.5" status="release" pubdate="20140209163800" resolver="public" artresolver="public" homepage="http://tika.apache.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<metadata-artifact status="successful" details="" size="5798" time="51" location="/Users/pbhatia/.ivy2/cache/org.apache.tika/tika-core/ivy-1.5.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.apache.tika/tika-core/ivy-1.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/tika/tika-core/1.5/tika-core-1.5.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="1.5" rev-constraint-default="1.5" rev-constraint-dynamic="1.5" callerrev="1.5"/>
+				<caller organisation="org.gagravarr" name="vorbis-java-tika" conf="compile, runtime" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="tika-core" type="bundle" ext="jar" status="successful" details="" size="493374" time="176" location="/Users/pbhatia/.ivy2/cache/org.apache.tika/tika-core/bundles/tika-core-1.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/tika/tika-core/1.5/tika-core-1.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.0" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.5"/>
+				<caller organisation="org.gagravarr" name="vorbis-java-tika" conf="compile, runtime" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="0.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mapdb" name="mapdb">
+			<revision name="0.9.2" status="release" pubdate="20130519145917" resolver="public" artresolver="public" homepage="http://www.mapdb.org" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="9303" time="105" location="/Users/pbhatia/.ivy2/cache/org.mapdb/mapdb/ivy-0.9.2.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.mapdb/mapdb/ivy-0.9.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mapdb/mapdb/0.9.2/mapdb-0.9.2.pom"/>
+				<caller organisation="org.scalanlp" name="epic_2.11" conf="compile, runtime" rev="0.9.2" rev-constraint-default="0.9.2" rev-constraint-dynamic="0.9.2" callerrev="0.3"/>
+				<caller organisation="org.scalanlp" name="epic_2.11" conf="default, compile, runtime, master" rev="0.9.2" rev-constraint-default="0.9.2" rev-constraint-dynamic="0.9.2" callerrev="0.2"/>
+				<artifacts>
+					<artifact name="mapdb" type="jar" ext="jar" status="successful" details="" size="302647" time="92" location="/Users/pbhatia/.ivy2/cache/org.mapdb/mapdb/jars/mapdb-0.9.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mapdb/mapdb/0.9.2/mapdb-0.9.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalanlp" name="nak_2.11">
+			<revision name="1.3" status="release" pubdate="20140914020353" resolver="public" artresolver="public" homepage="http://scalanlp.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="2968" time="58" location="/Users/pbhatia/.ivy2/cache/org.scalanlp/nak_2.11/ivy-1.3.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.scalanlp/nak_2.11/ivy-1.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalanlp/nak_2.11/1.3/nak_2.11-1.3.pom"/>
+				<caller organisation="org.scalanlp" name="epic_2.11" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="0.3"/>
+				<caller organisation="org.scalanlp" name="epic_2.11" conf="default, compile, runtime, master" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="0.2"/>
+				<artifacts>
+					<artifact name="nak_2.11" type="jar" ext="jar" status="successful" details="" size="1710585" time="286" location="/Users/pbhatia/.ivy2/cache/org.scalanlp/nak_2.11/jars/nak_2.11-1.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalanlp/nak_2.11/1.3/nak_2.11-1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.logging.log4j" name="log4j-core">
+			<revision name="2.0-beta8" status="release" pubdate="20130710171804" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="71">
+				<metadata-artifact status="successful" details="" size="13936" time="52" location="/Users/pbhatia/.ivy2/cache/org.apache.logging.log4j/log4j-core/ivy-2.0-beta8.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.apache.logging.log4j/log4j-core/ivy-2.0-beta8.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.0-beta8/log4j-core-2.0-beta8.pom"/>
+				<caller organisation="org.scalanlp" name="nak_2.11" conf="compile, runtime" rev="2.0-beta8" rev-constraint-default="2.0-beta8" rev-constraint-dynamic="2.0-beta8" callerrev="1.3"/>
+				<artifacts>
+					<artifact name="log4j-core" type="jar" ext="jar" status="successful" details="" size="635227" time="104" location="/Users/pbhatia/.ivy2/cache/org.apache.logging.log4j/log4j-core/jars/log4j-core-2.0-beta8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.0-beta8/log4j-core-2.0-beta8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.logging.log4j" name="log4j-api">
+			<revision name="2.0-beta8" status="release" pubdate="20130710171451" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="72">
+				<metadata-artifact status="successful" details="" size="6409" time="47" location="/Users/pbhatia/.ivy2/cache/org.apache.logging.log4j/log4j-api/ivy-2.0-beta8.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.apache.logging.log4j/log4j-api/ivy-2.0-beta8.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.0-beta8/log4j-api-2.0-beta8.pom"/>
+				<caller organisation="org.apache.logging.log4j" name="log4j-core" conf="compile, runtime" rev="2.0-beta8" rev-constraint-default="2.0-beta8" rev-constraint-dynamic="2.0-beta8" callerrev="2.0-beta8"/>
+				<artifacts>
+					<artifact name="log4j-api" type="jar" ext="jar" status="successful" details="" size="107193" time="89" location="/Users/pbhatia/.ivy2/cache/org.apache.logging.log4j/log4j-api/jars/log4j-api-2.0-beta8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.0-beta8/log4j-api-2.0-beta8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.scala-logging" name="scala-logging-slf4j_2.11">
+			<revision name="2.1.2" status="release" pubdate="20140425062015" resolver="public" artresolver="public" homepage="https://github.com/typesafehub/scala-logging" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="2742" time="49" location="/Users/pbhatia/.ivy2/cache/com.typesafe.scala-logging/scala-logging-slf4j_2.11/ivy-2.1.2.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/com.typesafe.scala-logging/scala-logging-slf4j_2.11/ivy-2.1.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging-slf4j_2.11/2.1.2/scala-logging-slf4j_2.11-2.1.2.pom"/>
+				<caller organisation="org.scalanlp" name="nak_2.11" conf="compile, runtime" rev="2.1.2" rev-constraint-default="2.1.2" rev-constraint-dynamic="2.1.2" callerrev="1.3"/>
+				<caller organisation="org.scalanlp" name="epic_2.11" conf="compile, runtime" rev="2.1.2" rev-constraint-default="2.1.2" rev-constraint-dynamic="2.1.2" callerrev="0.3"/>
+				<artifacts>
+					<artifact name="scala-logging-slf4j_2.11" type="jar" ext="jar" status="successful" details="" size="24064" time="49" location="/Users/pbhatia/.ivy2/cache/com.typesafe.scala-logging/scala-logging-slf4j_2.11/jars/scala-logging-slf4j_2.11-2.1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging-slf4j_2.11/2.1.2/scala-logging-slf4j_2.11-2.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.7" status="release" pubdate="20140404071248" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<metadata-artifact status="no" details="" size="4573" time="0" location="/Users/pbhatia/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom"/>
+				<caller organisation="com.typesafe.scala-logging" name="scala-logging-slf4j_2.11" conf="compile, runtime" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="2.1.2"/>
+				<caller organisation="org.slf4j" name="slf4j-simple" conf="compile, runtime" rev="1.7.6" rev-constraint-default="1.7.6" rev-constraint-dynamic="1.7.6" callerrev="1.7.6"/>
+				<caller organisation="org.scalanlp" name="breeze_2.11" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="0.9"/>
+				<caller organisation="org.scalanlp" name="breeze_2.11" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="0.11-M0"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="29257" time="0" location="/Users/pbhatia/Desktop/TypeSafeActivator/activator-dist-1.3.7/repository/org.slf4j/slf4j-api/1.7.7/jars/slf4j-api.jar">
+						<origin-location is-local="true" location="/Users/pbhatia/Desktop/TypeSafeActivator/activator-dist-1.3.7/repository/org.slf4j/slf4j-api/1.7.7/jars/slf4j-api.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.7.5" status="release" pubdate="20151123144542" resolver="activator-local" artresolver="activator-local" evicted="latest-revision" evicted-reason="" homepage="http://www.slf4j.org" downloaded="false" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<metadata-artifact status="no" details="" size="4293" time="0" location="/Users/pbhatia/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.5.xml" searched="true" original-local-location="/Users/pbhatia/Desktop/TypeSafeActivator/activator-dist-1.3.7/repository/org.slf4j/slf4j-api/1.7.5/ivys/ivy.xml" origin-is-local="true" origin-location="/Users/pbhatia/Desktop/TypeSafeActivator/activator-dist-1.3.7/repository/org.slf4j/slf4j-api/1.7.5/ivys/ivy.xml"/>
+				<evicted-by rev="1.7.7"/>
+				<caller organisation="org.scalanlp" name="breeze_2.11" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="0.9"/>
+				<caller organisation="org.scalanlp" name="breeze_2.11" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="0.11-M0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="1.7.6" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.7.7"/>
+				<caller organisation="org.slf4j" name="slf4j-simple" conf="compile, runtime" rev="1.7.6" rev-constraint-default="1.7.6" rev-constraint-dynamic="1.7.6" callerrev="1.7.6"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.scala-logging" name="scala-logging-api_2.11">
+			<revision name="2.1.2" status="release" pubdate="20140425062029" resolver="public" artresolver="public" homepage="https://github.com/typesafehub/scala-logging" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="1568" time="47" location="/Users/pbhatia/.ivy2/cache/com.typesafe.scala-logging/scala-logging-api_2.11/ivy-2.1.2.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/com.typesafe.scala-logging/scala-logging-api_2.11/ivy-2.1.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging-api_2.11/2.1.2/scala-logging-api_2.11-2.1.2.pom"/>
+				<caller organisation="com.typesafe.scala-logging" name="scala-logging-slf4j_2.11" conf="compile, runtime" rev="2.1.2" rev-constraint-default="2.1.2" rev-constraint-dynamic="2.1.2" callerrev="2.1.2"/>
+				<artifacts>
+					<artifact name="scala-logging-api_2.11" type="jar" ext="jar" status="successful" details="" size="7694" time="48" location="/Users/pbhatia/.ivy2/cache/com.typesafe.scala-logging/scala-logging-api_2.11/jars/scala-logging-api_2.11-2.1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging-api_2.11/2.1.2/scala-logging-api_2.11-2.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.rogach" name="scallop_2.11">
+			<revision name="0.9.5" status="release" pubdate="20140419004201" resolver="public" artresolver="public" homepage="https://github.com/scallop/scallop" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="successful" details="" size="2263" time="50" location="/Users/pbhatia/.ivy2/cache/org.rogach/scallop_2.11/ivy-0.9.5.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.rogach/scallop_2.11/ivy-0.9.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/rogach/scallop_2.11/0.9.5/scallop_2.11-0.9.5.pom"/>
+				<caller organisation="org.scalanlp" name="nak_2.11" conf="compile, runtime" rev="0.9.5" rev-constraint-default="0.9.5" rev-constraint-dynamic="0.9.5" callerrev="1.3"/>
+				<artifacts>
+					<artifact name="scallop_2.11" type="jar" ext="jar" status="successful" details="" size="527350" time="104" location="/Users/pbhatia/.ivy2/cache/org.rogach/scallop_2.11/jars/scallop_2.11-0.9.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/rogach/scallop_2.11/0.9.5/scallop_2.11-0.9.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalanlp" name="breeze-natives_2.11">
+			<revision name="0.8" status="release" pubdate="20140522121411" resolver="public" artresolver="public" homepage="http://scalanlp.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="54">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="1770" time="53" location="/Users/pbhatia/.ivy2/cache/org.scalanlp/breeze-natives_2.11/ivy-0.8.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.scalanlp/breeze-natives_2.11/ivy-0.8.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalanlp/breeze-natives_2.11/0.8/breeze-natives_2.11-0.8.pom"/>
+				<caller organisation="org.scalanlp" name="nak_2.11" conf="compile, runtime" rev="0.8" rev-constraint-default="0.8" rev-constraint-dynamic="0.8" callerrev="1.3"/>
+				<artifacts>
+					<artifact name="breeze-natives_2.11" type="jar" ext="jar" status="successful" details="" size="278" time="49" location="/Users/pbhatia/.ivy2/cache/org.scalanlp/breeze-natives_2.11/jars/breeze-natives_2.11-0.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalanlp/breeze-natives_2.11/0.8/breeze-natives_2.11-0.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="all">
+			<revision name="1.1.2" status="release" pubdate="20131126065721" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="55">
+				<metadata-artifact status="successful" details="" size="4269" time="50" location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/all/ivy-1.1.2.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/all/ivy-1.1.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/all/1.1.2/all-1.1.2.pom"/>
+				<caller organisation="org.scalanlp" name="breeze-natives_2.11" conf="compile, runtime" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="0.8"/>
+				<artifacts>
+					<artifact name="all" type="pom" ext="pom" status="successful" details="" size="4269" time="34" location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/all/poms/all-1.1.2.pom">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/all/1.1.2/all-1.1.2.pom"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_system-win-i686">
+			<revision name="1.1" status="release" pubdate="20131011184118" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="70">
+				<metadata-artifact status="successful" details="" size="5271" time="52" location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-win-i686/ivy-1.1.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-win-i686/ivy-1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.pom"/>
+				<caller organisation="com.github.fommil.netlib" name="all" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1.2"/>
+				<artifacts>
+					<artifact name="netlib-native_system-win-i686" type="jar" ext="jar" extra-classifier="natives" status="successful" details="" size="561459" time="138" location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-win-i686/jars/netlib-native_system-win-i686-1.1-natives.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1-natives.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_system-win-x86_64">
+			<revision name="1.1" status="release" pubdate="20131011184207" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="69">
+				<metadata-artifact status="successful" details="" size="5130" time="51" location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-win-x86_64/ivy-1.1.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-win-x86_64/ivy-1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.pom"/>
+				<caller organisation="com.github.fommil.netlib" name="all" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1.2"/>
+				<artifacts>
+					<artifact name="netlib-native_system-win-x86_64" type="jar" ext="jar" extra-classifier="natives" status="successful" details="" size="637428" time="134" location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-win-x86_64/jars/netlib-native_system-win-x86_64-1.1-natives.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1-natives.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_system-linux-armhf">
+			<revision name="1.1" status="release" pubdate="20131011193120" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="68">
+				<metadata-artifact status="successful" details="" size="4780" time="46" location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-linux-armhf/ivy-1.1.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-linux-armhf/ivy-1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.pom"/>
+				<caller organisation="com.github.fommil.netlib" name="all" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1.2"/>
+				<artifacts>
+					<artifact name="netlib-native_system-linux-armhf" type="jar" ext="jar" extra-classifier="natives" status="successful" details="" size="310891" time="89" location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-linux-armhf/jars/netlib-native_system-linux-armhf-1.1-natives.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1-natives.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_system-linux-i686">
+			<revision name="1.1" status="release" pubdate="20131011193027" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="67">
+				<metadata-artifact status="successful" details="" size="4869" time="49" location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-linux-i686/ivy-1.1.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-linux-i686/ivy-1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1.pom"/>
+				<caller organisation="com.github.fommil.netlib" name="all" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1.2"/>
+				<artifacts>
+					<artifact name="netlib-native_system-linux-i686" type="jar" ext="jar" extra-classifier="natives" status="successful" details="" size="435365" time="103" location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-linux-i686/jars/netlib-native_system-linux-i686-1.1-natives.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1-natives.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_system-linux-x86_64">
+			<revision name="1.1" status="release" pubdate="20131011192927" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="66">
+				<metadata-artifact status="successful" details="" size="3930" time="53" location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-linux-x86_64/ivy-1.1.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-linux-x86_64/ivy-1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.pom"/>
+				<caller organisation="com.github.fommil.netlib" name="all" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1.2"/>
+				<artifacts>
+					<artifact name="netlib-native_system-linux-x86_64" type="jar" ext="jar" extra-classifier="natives" status="successful" details="" size="458605" time="104" location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-linux-x86_64/jars/netlib-native_system-linux-x86_64-1.1-natives.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1-natives.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_system-osx-x86_64">
+			<revision name="1.1" status="release" pubdate="20131011184035" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="64">
+				<metadata-artifact status="successful" details="" size="3912" time="46" location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-osx-x86_64/ivy-1.1.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-osx-x86_64/ivy-1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.pom"/>
+				<caller organisation="com.github.fommil.netlib" name="all" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1.2"/>
+				<artifacts>
+					<artifact name="netlib-native_system-osx-x86_64" type="jar" ext="jar" extra-classifier="natives" status="successful" details="" size="553993" time="115" location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-osx-x86_64/jars/netlib-native_system-osx-x86_64-1.1-natives.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1-natives.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="native_system-java">
+			<revision name="1.1" status="release" pubdate="20131011183956" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="65">
+				<metadata-artifact status="successful" details="" size="3988" time="49" location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/native_system-java/ivy-1.1.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/native_system-java/ivy-1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.pom"/>
+				<caller organisation="com.github.fommil.netlib" name="netlib-native_system-linux-x86_64" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1"/>
+				<caller organisation="com.github.fommil.netlib" name="netlib-native_system-win-i686" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1"/>
+				<caller organisation="com.github.fommil.netlib" name="netlib-native_system-linux-i686" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1"/>
+				<caller organisation="com.github.fommil.netlib" name="netlib-native_system-osx-x86_64" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1"/>
+				<caller organisation="com.github.fommil.netlib" name="netlib-native_system-win-x86_64" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1"/>
+				<caller organisation="com.github.fommil.netlib" name="netlib-native_system-linux-armhf" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1"/>
+				<artifacts>
+					<artifact name="native_system-java" type="jar" ext="jar" status="successful" details="" size="54509" time="76" location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/native_system-java/jars/native_system-java-1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_ref-linux-armhf">
+			<revision name="1.1" status="release" pubdate="20131011191624" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="63">
+				<metadata-artifact status="successful" details="" size="3897" time="46" location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-linux-armhf/ivy-1.1.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-linux-armhf/ivy-1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1.pom"/>
+				<caller organisation="com.github.fommil.netlib" name="all" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1.2"/>
+				<artifacts>
+					<artifact name="netlib-native_ref-linux-armhf" type="jar" ext="jar" extra-classifier="natives" status="successful" details="" size="1208080" time="181" location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-linux-armhf/jars/netlib-native_ref-linux-armhf-1.1-natives.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1-natives.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_ref-win-i686">
+			<revision name="1.1" status="release" pubdate="20131011183716" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="62">
+				<metadata-artifact status="successful" details="" size="4471" time="58" location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-win-i686/ivy-1.1.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-win-i686/ivy-1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1.pom"/>
+				<caller organisation="com.github.fommil.netlib" name="all" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1.2"/>
+				<artifacts>
+					<artifact name="netlib-native_ref-win-i686" type="jar" ext="jar" extra-classifier="natives" status="successful" details="" size="1826785" time="262" location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-win-i686/jars/netlib-native_ref-win-i686-1.1-natives.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1-natives.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_ref-win-x86_64">
+			<revision name="1.1" status="release" pubdate="20131011183904" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="61">
+				<metadata-artifact status="successful" details="" size="4378" time="55" location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-win-x86_64/ivy-1.1.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-win-x86_64/ivy-1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1.pom"/>
+				<caller organisation="com.github.fommil.netlib" name="all" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1.2"/>
+				<artifacts>
+					<artifact name="netlib-native_ref-win-x86_64" type="jar" ext="jar" extra-classifier="natives" status="successful" details="" size="2305169" time="317" location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-win-x86_64/jars/netlib-native_ref-win-x86_64-1.1-natives.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1-natives.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_ref-linux-i686">
+			<revision name="1.1" status="release" pubdate="20131011191458" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="60">
+				<metadata-artifact status="successful" details="" size="3739" time="47" location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-linux-i686/ivy-1.1.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-linux-i686/ivy-1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1.pom"/>
+				<caller organisation="com.github.fommil.netlib" name="all" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1.2"/>
+				<artifacts>
+					<artifact name="netlib-native_ref-linux-i686" type="jar" ext="jar" extra-classifier="natives" status="successful" details="" size="1489507" time="230" location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-linux-i686/jars/netlib-native_ref-linux-i686-1.1-natives.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1-natives.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_ref-linux-x86_64">
+			<revision name="1.1" status="release" pubdate="20131011191310" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="59">
+				<metadata-artifact status="successful" details="" size="3309" time="51" location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-linux-x86_64/ivy-1.1.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-linux-x86_64/ivy-1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.pom"/>
+				<caller organisation="com.github.fommil.netlib" name="all" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1.2"/>
+				<artifacts>
+					<artifact name="netlib-native_ref-linux-x86_64" type="jar" ext="jar" extra-classifier="natives" status="successful" details="" size="1749371" time="277" location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-linux-x86_64/jars/netlib-native_ref-linux-x86_64-1.1-natives.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1-natives.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_ref-osx-x86_64">
+			<revision name="1.1" status="release" pubdate="20131011183537" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="56">
+				<metadata-artifact status="successful" details="" size="3620" time="55" location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-osx-x86_64/ivy-1.1.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-osx-x86_64/ivy-1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.pom"/>
+				<caller organisation="com.github.fommil.netlib" name="all" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1.2"/>
+				<artifacts>
+					<artifact name="netlib-native_ref-osx-x86_64" type="jar" ext="jar" extra-classifier="natives" status="successful" details="" size="1839499" time="289" location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-osx-x86_64/jars/netlib-native_ref-osx-x86_64-1.1-natives.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1-natives.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="native_ref-java">
+			<revision name="1.1" status="release" pubdate="20131011183421" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="57">
+				<metadata-artifact status="successful" details="" size="3973" time="46" location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/native_ref-java/ivy-1.1.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/native_ref-java/ivy-1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1.pom"/>
+				<caller organisation="com.github.fommil.netlib" name="netlib-native_ref-linux-armhf" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1"/>
+				<caller organisation="com.github.fommil.netlib" name="netlib-native_ref-osx-x86_64" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1"/>
+				<caller organisation="com.github.fommil.netlib" name="netlib-native_ref-win-i686" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1"/>
+				<caller organisation="com.github.fommil.netlib" name="netlib-native_ref-win-x86_64" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1"/>
+				<caller organisation="com.github.fommil.netlib" name="netlib-native_ref-linux-i686" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1"/>
+				<caller organisation="com.github.fommil.netlib" name="netlib-native_ref-linux-x86_64" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1"/>
+				<artifacts>
+					<artifact name="native_ref-java" type="jar" ext="jar" status="successful" details="" size="54461" time="57" location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/native_ref-java/jars/native_ref-java-1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil" name="jniloader">
+			<revision name="1.1" status="release" pubdate="20131011163947" resolver="public" artresolver="public" homepage="https://github.com/fommil/jniloader" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="58">
+				<license name="LGPL" url="http://www.gnu.org/licenses/lgpl.txt"/>
+				<metadata-artifact status="successful" details="" size="3648" time="47" location="/Users/pbhatia/.ivy2/cache/com.github.fommil/jniloader/ivy-1.1.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/com.github.fommil/jniloader/ivy-1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/jniloader/1.1/jniloader-1.1.pom"/>
+				<caller organisation="com.github.fommil.netlib" name="native_ref-java" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1"/>
+				<caller organisation="com.github.fommil.netlib" name="native_system-java" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1"/>
+				<artifacts>
+					<artifact name="jniloader" type="jar" ext="jar" status="successful" details="" size="8685" time="53" location="/Users/pbhatia/.ivy2/cache/com.github.fommil/jniloader/jars/jniloader-1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/jniloader/1.1/jniloader-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalanlp" name="breeze-config_2.11">
+			<revision name="0.9.1" status="release" pubdate="20140914015819" resolver="public" artresolver="public" homepage="http://scalanlp.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="2364" time="112" location="/Users/pbhatia/.ivy2/cache/org.scalanlp/breeze-config_2.11/ivy-0.9.1.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.scalanlp/breeze-config_2.11/ivy-0.9.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalanlp/breeze-config_2.11/0.9.1/breeze-config_2.11-0.9.1.pom"/>
+				<caller organisation="org.scalanlp" name="nak_2.11" conf="compile, runtime" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="1.3"/>
+				<caller organisation="org.scalanlp" name="epic_2.11" conf="compile, runtime" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.3"/>
+				<caller organisation="org.scalanlp" name="epic_2.11" conf="default, compile, runtime, master" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.2"/>
+				<artifacts>
+					<artifact name="breeze-config_2.11" type="jar" ext="jar" status="successful" details="" size="134730" time="67" location="/Users/pbhatia/.ivy2/cache/org.scalanlp/breeze-config_2.11/jars/breeze-config_2.11-0.9.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalanlp/breeze-config_2.11/0.9.1/breeze-config_2.11-0.9.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.paranamer" name="paranamer">
+			<revision name="2.2" status="release" pubdate="20100102064326" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<metadata-artifact status="successful" details="" size="1591" time="63" location="/Users/pbhatia/.ivy2/cache/com.thoughtworks.paranamer/paranamer/ivy-2.2.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/com.thoughtworks.paranamer/paranamer/ivy-2.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.2/paranamer-2.2.pom"/>
+				<caller organisation="org.scalanlp" name="breeze-config_2.11" conf="compile, runtime" rev="2.2" rev-constraint-default="2.2" rev-constraint-dynamic="2.2" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="paranamer" type="jar" ext="jar" status="successful" details="" size="29392" time="48" location="/Users/pbhatia/.ivy2/cache/com.thoughtworks.paranamer/paranamer/jars/paranamer-2.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.2/paranamer-2.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.11">
+			<revision name="1.0.1" status="release" pubdate="20140416052108" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="53">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2987" time="0" location="/Users/pbhatia/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.1/scala-xml_2.11-1.0.1.pom"/>
+				<caller organisation="org.scalanlp" name="epic_2.11" conf="compile, runtime" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="0.3"/>
+				<caller organisation="org.scalanlp" name="epic_2.11" conf="default, compile, runtime, master" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="0.2"/>
+				<artifacts>
+					<artifact name="scala-xml_2.11" type="bundle" ext="jar" status="no" details="" size="655685" time="0" location="/Users/pbhatia/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.1/scala-xml_2.11-1.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.spire-math" name="spire_2.11">
+			<revision name="0.7.4" status="release" pubdate="20140424112931" resolver="public" artresolver="public" homepage="http://spire-math.org" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="BSD-style" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="successful" details="" size="2326" time="91" location="/Users/pbhatia/.ivy2/cache/org.spire-math/spire_2.11/ivy-0.7.4.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.spire-math/spire_2.11/ivy-0.7.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/spire-math/spire_2.11/0.7.4/spire_2.11-0.7.4.pom"/>
+				<caller organisation="org.scalanlp" name="breeze_2.11" conf="compile, runtime" rev="0.7.4" rev-constraint-default="0.7.4" rev-constraint-dynamic="0.7.4" callerrev="0.9"/>
+				<caller organisation="org.scalanlp" name="breeze_2.11" conf="compile, runtime" rev="0.7.4" rev-constraint-default="0.7.4" rev-constraint-dynamic="0.7.4" callerrev="0.11-M0"/>
+				<artifacts>
+					<artifact name="spire_2.11" type="jar" ext="jar" status="successful" details="" size="7276083" time="934" location="/Users/pbhatia/.ivy2/cache/org.spire-math/spire_2.11/jars/spire_2.11-0.7.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/spire-math/spire_2.11/0.7.4/spire_2.11-0.7.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.spire-math" name="spire-macros_2.11">
+			<revision name="0.7.4" status="release" pubdate="20140424112231" resolver="public" artresolver="public" homepage="http://spire-math.org" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="BSD-style" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="successful" details="" size="2166" time="59" location="/Users/pbhatia/.ivy2/cache/org.spire-math/spire-macros_2.11/ivy-0.7.4.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.spire-math/spire-macros_2.11/ivy-0.7.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/spire-math/spire-macros_2.11/0.7.4/spire-macros_2.11-0.7.4.pom"/>
+				<caller organisation="org.spire-math" name="spire_2.11" conf="compile, runtime" rev="0.7.4" rev-constraint-default="0.7.4" rev-constraint-dynamic="0.7.4" callerrev="0.7.4"/>
+				<artifacts>
+					<artifact name="spire-macros_2.11" type="jar" ext="jar" status="successful" details="" size="86811" time="55" location="/Users/pbhatia/.ivy2/cache/org.spire-math/spire-macros_2.11/jars/spire-macros_2.11-0.7.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/spire-math/spire-macros_2.11/0.7.4/spire-macros_2.11-0.7.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-math3">
+			<revision name="3.2" status="release" pubdate="20130402153128" resolver="public" artresolver="public" homepage="http://commons.apache.org/proper/commons-math/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<metadata-artifact status="successful" details="" size="17431" time="63" location="/Users/pbhatia/.ivy2/cache/org.apache.commons/commons-math3/ivy-3.2.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/org.apache.commons/commons-math3/ivy-3.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.pom"/>
+				<caller organisation="org.scalanlp" name="breeze_2.11" conf="compile, runtime" rev="3.2" rev-constraint-default="3.2" rev-constraint-dynamic="3.2" callerrev="0.9"/>
+				<caller organisation="org.scalanlp" name="breeze_2.11" conf="compile, runtime" rev="3.2" rev-constraint-default="3.2" rev-constraint-dynamic="3.2" callerrev="0.11-M0"/>
+				<artifacts>
+					<artifact name="commons-math3" type="jar" ext="jar" status="successful" details="" size="1692782" time="262" location="/Users/pbhatia/.ivy2/cache/org.apache.commons/commons-math3/jars/commons-math3-3.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.rwl" name="jtransforms">
+			<revision name="2.4.0" status="release" pubdate="20120519100656" resolver="public" artresolver="public" homepage="http://sourceforge.net/projects/jtransforms/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="MPL" url="http://www.mozilla.org/MPL/2.0/index.txt"/>
+				<license name="LGPL" url="http://www.gnu.org/licenses/lgpl-2.1.txt"/>
+				<license name="GPL" url="http://www.gnu.org/licenses/gpl-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="2817" time="70" location="/Users/pbhatia/.ivy2/cache/com.github.rwl/jtransforms/ivy-2.4.0.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/com.github.rwl/jtransforms/ivy-2.4.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/rwl/jtransforms/2.4.0/jtransforms-2.4.0.pom"/>
+				<caller organisation="org.scalanlp" name="breeze_2.11" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="0.9"/>
+				<caller organisation="org.scalanlp" name="breeze_2.11" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="0.11-M0"/>
+				<artifacts>
+					<artifact name="jtransforms" type="jar" ext="jar" status="successful" details="" size="764569" time="163" location="/Users/pbhatia/.ivy2/cache/com.github.rwl/jtransforms/jars/jtransforms-2.4.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/rwl/jtransforms/2.4.0/jtransforms-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="junit" name="junit">
+			<revision name="4.8.2" status="release" pubdate="20151125082103" resolver="activator-local" artresolver="activator-local" homepage="http://junit.org" downloaded="false" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="Common Public License Version 1.0" url="http://www.opensource.org/licenses/cpl1.0.txt"/>
+				<metadata-artifact status="no" details="" size="2420" time="0" location="/Users/pbhatia/.ivy2/cache/junit/junit/ivy-4.8.2.xml" searched="true" original-local-location="/Users/pbhatia/Desktop/TypeSafeActivator/activator-dist-1.3.7/repository/junit/junit/4.8.2/ivys/ivy.xml" origin-is-local="true" origin-location="/Users/pbhatia/Desktop/TypeSafeActivator/activator-dist-1.3.7/repository/junit/junit/4.8.2/ivys/ivy.xml"/>
+				<caller organisation="com.github.rwl" name="jtransforms" conf="compile, runtime" rev="4.8.2" rev-constraint-default="4.8.2" rev-constraint-dynamic="4.8.2" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="junit" type="jar" ext="jar" status="no" details="" size="237344" time="0" location="/Users/pbhatia/Desktop/TypeSafeActivator/activator-dist-1.3.7/repository/junit/junit/4.8.2/jars/junit.jar">
+						<origin-location is-local="true" location="/Users/pbhatia/Desktop/TypeSafeActivator/activator-dist-1.3.7/repository/junit/junit/4.8.2/jars/junit.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sf.opencsv" name="opencsv">
+			<revision name="2.3" status="release" pubdate="20110728010018" resolver="public" artresolver="public" homepage="http://opencsv.sf.net" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="5445" time="53" location="/Users/pbhatia/.ivy2/cache/net.sf.opencsv/opencsv/ivy-2.3.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/net.sf.opencsv/opencsv/ivy-2.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/sf/opencsv/opencsv/2.3/opencsv-2.3.pom"/>
+				<caller organisation="org.scalanlp" name="breeze_2.11" conf="compile, runtime" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="0.9"/>
+				<caller organisation="org.scalanlp" name="breeze_2.11" conf="compile, runtime" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="0.11-M0"/>
+				<artifacts>
+					<artifact name="opencsv" type="jar" ext="jar" status="successful" details="" size="19827" time="52" location="/Users/pbhatia/.ivy2/cache/net.sf.opencsv/opencsv/jars/opencsv-2.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="core">
+			<revision name="1.1.2" status="release" pubdate="20131126065411" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<metadata-artifact status="successful" details="" size="5427" time="58" location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/core/ivy-1.1.2.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/core/ivy-1.1.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/core/1.1.2/core-1.1.2.pom"/>
+				<caller organisation="com.github.fommil.netlib" name="native_ref-java" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1"/>
+				<caller organisation="org.scalanlp" name="breeze_2.11" conf="compile, runtime" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="0.9"/>
+				<caller organisation="com.github.fommil.netlib" name="all" conf="compile, runtime" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="1.1.2"/>
+				<caller organisation="com.github.fommil.netlib" name="native_system-java" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1"/>
+				<caller organisation="org.scalanlp" name="breeze_2.11" conf="compile, runtime" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="0.11-M0"/>
+				<artifacts>
+					<artifact name="core" type="jar" ext="jar" status="successful" details="" size="164422" time="62" location="/Users/pbhatia/.ivy2/cache/com.github.fommil.netlib/core/jars/core-1.1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/core/1.1.2/core-1.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.1.2"/>
+				<caller organisation="com.github.fommil.netlib" name="native_ref-java" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1"/>
+				<caller organisation="com.github.fommil.netlib" name="native_system-java" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sourceforge.f2j" name="arpack_combined_all">
+			<revision name="0.1" status="release" pubdate="20130709002740" resolver="public" artresolver="public" homepage="http://f2j.sourceforge.net" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="The BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="successful" details="" size="1338" time="54" location="/Users/pbhatia/.ivy2/cache/net.sourceforge.f2j/arpack_combined_all/ivy-0.1.xml" searched="true" original-local-location="/Users/pbhatia/.ivy2/cache/net.sourceforge.f2j/arpack_combined_all/ivy-0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1.pom"/>
+				<caller organisation="com.github.fommil.netlib" name="netlib-native_ref-win-i686" conf="compile, runtime" rev="0.1" rev-constraint-default="0.1" rev-constraint-dynamic="0.1" callerrev="1.1"/>
+				<caller organisation="org.scalanlp" name="breeze_2.11" conf="compile, runtime" rev="0.1" rev-constraint-default="0.1" rev-constraint-dynamic="0.1" callerrev="0.9"/>
+				<caller organisation="com.github.fommil.netlib" name="netlib-native_ref-win-x86_64" conf="compile, runtime" rev="0.1" rev-constraint-default="0.1" rev-constraint-dynamic="0.1" callerrev="1.1"/>
+				<caller organisation="com.github.fommil.netlib" name="all" conf="compile, runtime" rev="0.1" rev-constraint-default="0.1" rev-constraint-dynamic="0.1" callerrev="1.1.2"/>
+				<caller organisation="com.github.fommil.netlib" name="netlib-native_system-osx-x86_64" conf="compile, runtime" rev="0.1" rev-constraint-default="0.1" rev-constraint-dynamic="0.1" callerrev="1.1"/>
+				<caller organisation="com.github.fommil.netlib" name="netlib-native_ref-linux-i686" conf="compile, runtime" rev="0.1" rev-constraint-default="0.1" rev-constraint-dynamic="0.1" callerrev="1.1"/>
+				<caller organisation="com.github.fommil.netlib" name="native_ref-java" conf="compile, runtime" rev="0.1" rev-constraint-default="0.1" rev-constraint-dynamic="0.1" callerrev="1.1"/>
+				<caller organisation="com.github.fommil.netlib" name="netlib-native_system-linux-x86_64" conf="compile, runtime" rev="0.1" rev-constraint-default="0.1" rev-constraint-dynamic="0.1" callerrev="1.1"/>
+				<caller organisation="com.github.fommil.netlib" name="netlib-native_ref-linux-armhf" conf="compile, runtime" rev="0.1" rev-constraint-default="0.1" rev-constraint-dynamic="0.1" callerrev="1.1"/>
+				<caller organisation="com.github.fommil.netlib" name="netlib-native_system-win-i686" conf="compile, runtime" rev="0.1" rev-constraint-default="0.1" rev-constraint-dynamic="0.1" callerrev="1.1"/>
+				<caller organisation="com.github.fommil.netlib" name="netlib-native_ref-osx-x86_64" conf="compile, runtime" rev="0.1" rev-constraint-default="0.1" rev-constraint-dynamic="0.1" callerrev="1.1"/>
+				<caller organisation="com.github.fommil.netlib" name="netlib-native_system-linux-i686" conf="compile, runtime" rev="0.1" rev-constraint-default="0.1" rev-constraint-dynamic="0.1" callerrev="1.1"/>
+				<caller organisation="com.github.fommil.netlib" name="core" conf="compile, runtime" rev="0.1" rev-constraint-default="0.1" rev-constraint-dynamic="0.1" callerrev="1.1.2"/>
+				<caller organisation="com.github.fommil.netlib" name="native_system-java" conf="compile, runtime" rev="0.1" rev-constraint-default="0.1" rev-constraint-dynamic="0.1" callerrev="1.1"/>
+				<caller organisation="org.scalanlp" name="breeze_2.11" conf="compile, runtime" rev="0.1" rev-constraint-default="0.1" rev-constraint-dynamic="0.1" callerrev="0.11-M0"/>
+				<caller organisation="com.github.fommil.netlib" name="netlib-native_ref-linux-x86_64" conf="compile, runtime" rev="0.1" rev-constraint-default="0.1" rev-constraint-dynamic="0.1" callerrev="1.1"/>
+				<caller organisation="com.github.fommil.netlib" name="netlib-native_system-win-x86_64" conf="compile, runtime" rev="0.1" rev-constraint-default="0.1" rev-constraint-dynamic="0.1" callerrev="1.1"/>
+				<caller organisation="com.github.fommil.netlib" name="netlib-native_system-linux-armhf" conf="compile, runtime" rev="0.1" rev-constraint-default="0.1" rev-constraint-dynamic="0.1" callerrev="1.1"/>
+				<artifacts>
+					<artifact name="arpack_combined_all" type="jar" ext="jar" extra-classifier="javadoc" status="successful" details="" size="5976137" time="910" location="/Users/pbhatia/.ivy2/cache/net.sourceforge.f2j/arpack_combined_all/jars/arpack_combined_all-0.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="arpack_combined_all" type="jar" ext="jar" status="successful" details="" size="1194003" time="218" location="/Users/pbhatia/.ivy2/cache/net.sourceforge.f2j/arpack_combined_all/jars/arpack_combined_all-0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.7" status="release" pubdate="20150803120311" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master, master(*), runtime(*), master(compile), compile(*)" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/Users/pbhatia/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom"/>
+				<caller organisation="com.typesafe.scala-logging" name="scala-logging-slf4j_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="2.1.2"/>
+				<caller organisation="org.spire-math" name="spire_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="0.7.4"/>
+				<caller organisation="org.scalanlp" name="nak_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="1.3"/>
+				<caller organisation="org.scalanlp" name="epic_2.11" conf="compile, runtime" rev="2.11.4" rev-constraint-default="2.11.4" rev-constraint-dynamic="2.11.4" callerrev="0.3"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.11.1"/>
+				<caller organisation="org.scalanlp" name="english_2.11" conf="default, compile, runtime, master" rev="2.11.4" rev-constraint-default="2.11.4" rev-constraint-dynamic="2.11.4" callerrev="2015.1.25"/>
+				<caller organisation="org.scala-lang.modules" name="scala-xml_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="1.0.1"/>
+				<caller organisation="org.scalanlp" name="breeze_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="0.9"/>
+				<caller organisation="org.scalanlp" name="breeze-macros_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="0.3.1"/>
+				<caller organisation="org.scalanlp" name="epic_2.11" conf="default, compile, runtime, master" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="0.2"/>
+				<caller organisation="com.typesafe.scala-logging" name="scala-logging-api_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="2.1.2"/>
+				<caller organisation="org.scalanlp" name="epic-pos-en_2.11" conf="default, compile, runtime, master" rev="2.11.4" rev-constraint-default="2.11.4" rev-constraint-dynamic="2.11.4" callerrev="2015.1.25"/>
+				<caller organisation="org.scalanlp" name="epic-ner-en-conll_2.11" conf="default, compile, runtime, master" rev="2.11.4" rev-constraint-default="2.11.4" rev-constraint-dynamic="2.11.4" callerrev="2015.1.25"/>
+				<caller organisation="org.scalanlp" name="breeze-config_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="0.9.1"/>
+				<caller organisation="org.scalanlp" name="epic-parser-en-span_2.11" conf="default, compile, runtime, master" rev="2.11.4" rev-constraint-default="2.11.4" rev-constraint-dynamic="2.11.4" callerrev="2015.1.25"/>
+				<caller organisation="org.rogach" name="scallop_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="0.9.5"/>
+				<caller organisation="org.spire-math" name="spire-macros_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="0.7.4"/>
+				<caller organisation="org.scalanlp" name="breeze-natives_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="0.8"/>
+				<caller organisation="default" name="parsers_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="1.0"/>
+				<caller organisation="org.scalanlp" name="breeze_2.11" conf="compile, runtime" rev="2.11.4" rev-constraint-default="2.11.4" rev-constraint-dynamic="2.11.4" callerrev="0.11-M0"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="2.11.0"/>
+				<caller organisation="org.scalanlp" name="breeze-macros_2.11" conf="compile, runtime" rev="2.11.4" rev-constraint-default="2.11.4" rev-constraint-dynamic="2.11.4" callerrev="0.11-M0"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.11.4" rev-constraint-default="2.11.4" rev-constraint-dynamic="2.11.4" callerrev="2.11.4"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5745606" time="0" location="/Users/pbhatia/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.11.4" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, default, master(*), default(compile)" position="-1">
+				<evicted-by rev="2.11.7"/>
+				<caller organisation="com.typesafe.scala-logging" name="scala-logging-slf4j_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="2.1.2"/>
+				<caller organisation="org.spire-math" name="spire_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="0.7.4"/>
+				<caller organisation="org.scalanlp" name="nak_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="1.3"/>
+				<caller organisation="org.scalanlp" name="epic_2.11" conf="compile, runtime" rev="2.11.4" rev-constraint-default="2.11.4" rev-constraint-dynamic="2.11.4" callerrev="0.3"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.11.1"/>
+				<caller organisation="org.scalanlp" name="english_2.11" conf="default, compile, runtime, master" rev="2.11.4" rev-constraint-default="2.11.4" rev-constraint-dynamic="2.11.4" callerrev="2015.1.25"/>
+				<caller organisation="org.scala-lang.modules" name="scala-xml_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="1.0.1"/>
+				<caller organisation="org.scalanlp" name="breeze_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="0.9"/>
+				<caller organisation="org.scalanlp" name="breeze-macros_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="0.3.1"/>
+				<caller organisation="org.scalanlp" name="epic_2.11" conf="default, compile, runtime, master" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="0.2"/>
+				<caller organisation="com.typesafe.scala-logging" name="scala-logging-api_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="2.1.2"/>
+				<caller organisation="org.scalanlp" name="epic-pos-en_2.11" conf="default, compile, runtime, master" rev="2.11.4" rev-constraint-default="2.11.4" rev-constraint-dynamic="2.11.4" callerrev="2015.1.25"/>
+				<caller organisation="org.scalanlp" name="epic-ner-en-conll_2.11" conf="default, compile, runtime, master" rev="2.11.4" rev-constraint-default="2.11.4" rev-constraint-dynamic="2.11.4" callerrev="2015.1.25"/>
+				<caller organisation="org.scalanlp" name="breeze-config_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="0.9.1"/>
+				<caller organisation="org.scalanlp" name="epic-parser-en-span_2.11" conf="default, compile, runtime, master" rev="2.11.4" rev-constraint-default="2.11.4" rev-constraint-dynamic="2.11.4" callerrev="2015.1.25"/>
+				<caller organisation="org.rogach" name="scallop_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="0.9.5"/>
+				<caller organisation="org.spire-math" name="spire-macros_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="0.7.4"/>
+				<caller organisation="org.scalanlp" name="breeze-natives_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="0.8"/>
+				<caller organisation="default" name="parsers_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="1.0"/>
+				<caller organisation="org.scalanlp" name="breeze_2.11" conf="compile, runtime" rev="2.11.4" rev-constraint-default="2.11.4" rev-constraint-dynamic="2.11.4" callerrev="0.11-M0"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="2.11.0"/>
+				<caller organisation="org.scalanlp" name="breeze-macros_2.11" conf="compile, runtime" rev="2.11.4" rev-constraint-default="2.11.4" rev-constraint-dynamic="2.11.4" callerrev="0.11-M0"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.11.4" rev-constraint-default="2.11.4" rev-constraint-dynamic="2.11.4" callerrev="2.11.4"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="2.11.0" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="master(*), compile, runtime(*), master(compile), runtime, compile(*), master, default, default(compile)" position="-1">
+				<evicted-by rev="2.11.7"/>
+				<caller organisation="com.typesafe.scala-logging" name="scala-logging-slf4j_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="2.1.2"/>
+				<caller organisation="org.spire-math" name="spire_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="0.7.4"/>
+				<caller organisation="org.scalanlp" name="nak_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="1.3"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.11.1"/>
+				<caller organisation="org.scala-lang.modules" name="scala-xml_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="1.0.1"/>
+				<caller organisation="org.scalanlp" name="breeze-macros_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="0.3.1"/>
+				<caller organisation="org.scalanlp" name="breeze_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="0.9"/>
+				<caller organisation="com.typesafe.scala-logging" name="scala-logging-api_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="2.1.2"/>
+				<caller organisation="org.scalanlp" name="epic_2.11" conf="default, compile, runtime, master" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="0.2"/>
+				<caller organisation="org.scalanlp" name="breeze-config_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="0.9.1"/>
+				<caller organisation="org.rogach" name="scallop_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="0.9.5"/>
+				<caller organisation="org.spire-math" name="spire-macros_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="0.7.4"/>
+				<caller organisation="org.scalanlp" name="breeze-natives_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="0.8"/>
+				<caller organisation="default" name="parsers_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="1.0"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="2.11.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="2.11.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, default, master(*), default(compile)" position="-1">
+				<evicted-by rev="2.11.7"/>
+				<caller organisation="com.typesafe.scala-logging" name="scala-logging-slf4j_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="2.1.2"/>
+				<caller organisation="org.scalanlp" name="nak_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="1.3"/>
+				<caller organisation="org.spire-math" name="spire_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="0.7.4"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.11.1"/>
+				<caller organisation="org.scala-lang.modules" name="scala-xml_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="1.0.1"/>
+				<caller organisation="org.scalanlp" name="breeze_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="0.9"/>
+				<caller organisation="org.scalanlp" name="breeze-macros_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="0.3.1"/>
+				<caller organisation="org.scalanlp" name="epic_2.11" conf="default, compile, runtime, master" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="0.2"/>
+				<caller organisation="com.typesafe.scala-logging" name="scala-logging-api_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="2.1.2"/>
+				<caller organisation="org.scalanlp" name="breeze-config_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="0.9.1"/>
+				<caller organisation="org.rogach" name="scallop_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="0.9.5"/>
+				<caller organisation="org.spire-math" name="spire-macros_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="0.7.4"/>
+				<caller organisation="default" name="parsers_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="1.0"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="2.11.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
