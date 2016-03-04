@@ -4,7 +4,7 @@
 		module="parsers$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160303174845"
+		publication="20160304141121"
 	/>
 	<configurations>
 		<conf name="default" visibility="public" description=""/>
@@ -167,6 +167,33 @@
 		</dependency>
 		<dependency org="org.scala-sbt" name="precompiled-2_9_3" rev="0.13.8" transitive="false" conf="default->default(compile)">
 			<artifact name="precompiled-2_9_3" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.eed3si9n" name="sbt-assembly" rev="0.10.2" transitive="false" conf="default->default(compile)" scalaVersion="2.10" sbtVersion="0.13">
+			<artifact name="sbt-assembly" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scalanlp" name="sbt-jflex" rev="0.2" transitive="false" conf="default->default(compile)" scalaVersion="2.10" sbtVersion="0.13">
+			<artifact name="sbt-jflex" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="de.jflex" name="jflex" rev="1.5.1" transitive="false" conf="default->default(compile)">
+			<artifact name="jflex" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.apache.ant" name="ant" rev="1.7.0" transitive="false" conf="default->default(compile)">
+			<artifact name="ant" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.apache.ant" name="ant-launcher" rev="1.7.0" transitive="false" conf="default->default(compile)">
+			<artifact name="ant-launcher" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.github.mpeltonen" name="sbt-idea" rev="1.6.0" transitive="false" conf="default->default(compile)" scalaVersion="2.10" sbtVersion="0.13">
+			<artifact name="sbt-idea" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="commons-io" name="commons-io" rev="2.0.1" transitive="false" conf="default->default(compile)">
+			<artifact name="commons-io" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="net.virtual-void" name="sbt-dependency-graph" rev="0.7.4" transitive="false" conf="default->default(compile)" scalaVersion="2.10" sbtVersion="0.13">
+			<artifact name="sbt-dependency-graph" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.github.mdr" name="ascii-graphs_2.10" rev="0.0.3" transitive="false" conf="default->default(compile)">
+			<artifact name="ascii-graphs_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 	</dependencies>
 </ivy-module>

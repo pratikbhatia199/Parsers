@@ -4,7 +4,7 @@
 		module="parsers_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160303175500"
+		publication="20160304141130"
 	>
 		<description>
 		Parsers
@@ -38,7 +38,6 @@
 		<dependency org="org.scalanlp" name="epic-parser-en-span_2.11" rev="2015.1.25" conf="compile->default(compile)"/>
 		<dependency org="org.scalanlp" name="epic-pos-en_2.11" rev="2015.1.25" conf="compile->default(compile)"/>
 		<dependency org="org.scalanlp" name="epic-ner-en-conll_2.11" rev="2015.1.25" conf="compile->default(compile)"/>
-		<dependency org="junit" name="junit" rev="4.5" conf="test->default(compile)"/>
 		<dependency org="org.scalanlp" name="english_2.11" rev="2015.1.25" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

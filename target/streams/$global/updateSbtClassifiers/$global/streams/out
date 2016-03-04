@@ -1,3 +1,4 @@
+[warn] Credentials file /Users/pbhatia/.ivy2/.credentials does not exist
 [debug] Other repositories:
 [debug] Default repositories:
 [debug] Using inline dependencies specified in Scala.
@@ -647,9 +648,163 @@
 [debug] == resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->compile]
 [debug] == resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.8->org.scala-sbt#interface;0.13.8 [compile->default(compile)]
+[debug] == resolving dependencies default#parsers$sbt_2.11;1.0->com.eed3si9n#sbt-assembly;0.10.2 [default->default(compile)]
+[info] Resolving com.eed3si9n#sbt-assembly;0.10.2 ...
+[debug] sbt-chain: Checking cache for: dependency: com.eed3si9n#sbt-assembly;0.10.2 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: com.eed3si9n#sbt-assembly;0.10.2
+[debug] 	found com.eed3si9n#sbt-assembly;0.10.2 in sbt-chain
+[debug] 	[0.10.2] com.eed3si9n#sbt-assembly;0.10.2
+[debug] == resolving dependencies default#parsers$sbt_2.11;1.0->org.scalanlp#sbt-jflex;0.2 [default->default(compile)]
+[info] Resolving org.scalanlp#sbt-jflex;0.2 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scalanlp#sbt-jflex;0.2 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scalanlp#sbt-jflex;0.2
+[debug] 	found org.scalanlp#sbt-jflex;0.2 in sbt-chain
+[debug] 	[0.2] org.scalanlp#sbt-jflex;0.2
+[debug] == resolving dependencies default#parsers$sbt_2.11;1.0->org.scalanlp#sbt-jflex;0.2 [default->runtime]
+[debug] == resolving dependencies default#parsers$sbt_2.11;1.0->org.scalanlp#sbt-jflex;0.2 [default->compile]
+[debug] == resolving dependencies org.scalanlp#sbt-jflex;0.2->de.jflex#jflex;1.5.1 [compile->master(compile)]
+[info] Resolving de.jflex#jflex;1.5.1 ...
+[debug] sbt-chain: Checking cache for: dependency: de.jflex#jflex;1.5.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: de.jflex#jflex;1.5.1
+[debug] 	found de.jflex#jflex;1.5.1 in sbt-chain
+[debug] == resolving dependencies org.scalanlp#sbt-jflex;0.2->de.jflex#jflex;1.5.1 [compile->compile(*)]
+[debug] == resolving dependencies de.jflex#jflex;1.5.1->org.apache.ant#ant;1.7.0 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: commons-io#commons-io;2.0.1 {default=[default(compile)]} => dependency: commons-io#commons-io;1.2 {default=[default(compile)]}
+[info] Resolving org.apache.ant#ant;1.7.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.ant#ant;1.7.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.apache.ant#ant;1.7.0
+[debug] 	found org.apache.ant#ant;1.7.0 in sbt-chain
+[debug] dependency descriptor has been mediated: dependency: junit#junit;3.8.2 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]}
+[debug] == resolving dependencies de.jflex#jflex;1.5.1->org.apache.ant#ant;1.7.0 [compile->compile(*)]
+[debug] dependency descriptor has been mediated: dependency: junit#junit;3.8.2 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]}
+[debug] == resolving dependencies org.apache.ant#ant;1.7.0->org.apache.ant#ant-launcher;1.7.0 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: junit#junit;3.8.2 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;3.8.2 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;3.8.2 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;3.8.2 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: junit#junit;3.8.2 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]}
+[debug] dependency descriptor has been mediated: dependency: commons-io#commons-io;2.0.1 {default=[default(compile)]} => dependency: commons-io#commons-io;1.2 {default=[default(compile)]}
+[info] Resolving org.apache.ant#ant-launcher;1.7.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.ant#ant-launcher;1.7.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.apache.ant#ant-launcher;1.7.0
+[debug] 	found org.apache.ant#ant-launcher;1.7.0 in sbt-chain
+[debug] dependency descriptor has been mediated: dependency: junit#junit;3.8.2 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]}
+[debug] == resolving dependencies org.apache.ant#ant;1.7.0->org.apache.ant#ant-launcher;1.7.0 [compile->compile(*)]
+[debug] dependency descriptor has been mediated: dependency: junit#junit;3.8.2 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]}
+[debug] == resolving dependencies org.apache.ant#ant;1.7.0->org.apache.ant#ant-launcher;1.7.0 [compile->default(compile)]
+[debug] == resolving dependencies org.apache.ant#ant;1.7.0->org.apache.ant#ant-launcher;1.7.0 [compile->runtime]
+[debug] == resolving dependencies org.apache.ant#ant;1.7.0->org.apache.ant#ant-launcher;1.7.0 [compile->compile]
+[debug] dependency descriptor has been mediated: dependency: junit#junit;3.8.2 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]}
+[debug] == resolving dependencies org.apache.ant#ant;1.7.0->org.apache.ant#ant-launcher;1.7.0 [compile->master]
+[debug] dependency descriptor has been mediated: dependency: junit#junit;3.8.2 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]}
+[debug] == resolving dependencies de.jflex#jflex;1.5.1->org.apache.ant#ant;1.7.0 [compile->default(compile)]
+[debug] == resolving dependencies de.jflex#jflex;1.5.1->org.apache.ant#ant;1.7.0 [compile->runtime]
+[debug] == resolving dependencies de.jflex#jflex;1.5.1->org.apache.ant#ant;1.7.0 [compile->compile]
+[debug] dependency descriptor has been mediated: dependency: junit#junit;3.8.2 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]}
+[debug] == resolving dependencies org.apache.ant#ant;1.7.0->org.apache.ant#ant-launcher;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.ant#ant;1.7.0->org.apache.ant#ant-launcher;1.7.0 [runtime->compile]
+[debug] == resolving dependencies de.jflex#jflex;1.5.1->org.apache.ant#ant;1.7.0 [compile->master]
+[debug] dependency descriptor has been mediated: dependency: junit#junit;3.8.2 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]}
+[debug] == resolving dependencies org.scalanlp#sbt-jflex;0.2->de.jflex#jflex;1.5.1 [compile->runtime(*)]
+[debug] == resolving dependencies org.scalanlp#sbt-jflex;0.2->de.jflex#jflex;1.5.1 [compile->compile]
+[debug] == resolving dependencies de.jflex#jflex;1.5.1->org.apache.ant#ant;1.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies de.jflex#jflex;1.5.1->org.apache.ant#ant;1.7.0 [runtime->compile]
+[debug] == resolving dependencies org.scalanlp#sbt-jflex;0.2->de.jflex#jflex;1.5.1 [compile->default(compile)]
+[debug] == resolving dependencies org.scalanlp#sbt-jflex;0.2->de.jflex#jflex;1.5.1 [compile->runtime]
+[debug] == resolving dependencies org.scalanlp#sbt-jflex;0.2->de.jflex#jflex;1.5.1 [compile->compile]
+[debug] == resolving dependencies org.scalanlp#sbt-jflex;0.2->de.jflex#jflex;1.5.1 [compile->master]
+[debug] == resolving dependencies org.scalanlp#sbt-jflex;0.2->de.jflex#jflex;1.5.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalanlp#sbt-jflex;0.2->de.jflex#jflex;1.5.1 [runtime->compile]
+[debug] == resolving dependencies default#parsers$sbt_2.11;1.0->org.scalanlp#sbt-jflex;0.2 [default->master]
+[debug] == resolving dependencies default#parsers$sbt_2.11;1.0->de.jflex#jflex;1.5.1 [default->default(compile)]
+[debug] == resolving dependencies default#parsers$sbt_2.11;1.0->de.jflex#jflex;1.5.1 [default->runtime]
+[debug] == resolving dependencies default#parsers$sbt_2.11;1.0->de.jflex#jflex;1.5.1 [default->compile]
+[debug] == resolving dependencies default#parsers$sbt_2.11;1.0->de.jflex#jflex;1.5.1 [default->master]
+[debug] == resolving dependencies default#parsers$sbt_2.11;1.0->org.apache.ant#ant;1.7.0 [default->default(compile)]
+[debug] == resolving dependencies default#parsers$sbt_2.11;1.0->org.apache.ant#ant;1.7.0 [default->runtime]
+[debug] == resolving dependencies default#parsers$sbt_2.11;1.0->org.apache.ant#ant;1.7.0 [default->compile]
+[debug] == resolving dependencies default#parsers$sbt_2.11;1.0->org.apache.ant#ant;1.7.0 [default->master]
+[debug] == resolving dependencies default#parsers$sbt_2.11;1.0->org.apache.ant#ant-launcher;1.7.0 [default->default(compile)]
+[debug] == resolving dependencies default#parsers$sbt_2.11;1.0->org.apache.ant#ant-launcher;1.7.0 [default->runtime]
+[debug] == resolving dependencies default#parsers$sbt_2.11;1.0->org.apache.ant#ant-launcher;1.7.0 [default->compile]
+[debug] == resolving dependencies default#parsers$sbt_2.11;1.0->org.apache.ant#ant-launcher;1.7.0 [default->master]
+[debug] == resolving dependencies default#parsers$sbt_2.11;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [default->default(compile)]
+[info] Resolving com.github.mpeltonen#sbt-idea;1.6.0 ...
+[debug] sbt-chain: Checking cache for: dependency: com.github.mpeltonen#sbt-idea;1.6.0 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: com.github.mpeltonen#sbt-idea;1.6.0
+[debug] 	found com.github.mpeltonen#sbt-idea;1.6.0 in sbt-chain
+[debug] 	[1.6.0] com.github.mpeltonen#sbt-idea;1.6.0
+[debug] == resolving dependencies default#parsers$sbt_2.11;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [default->runtime]
+[debug] == resolving dependencies default#parsers$sbt_2.11;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [default->compile]
+[debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [compile->master(compile)]
+[info] Resolving commons-io#commons-io;2.0.1 ...
+[debug] sbt-chain: Checking cache for: dependency: commons-io#commons-io;2.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: commons-io#commons-io;2.0.1
+[debug] 	found commons-io#commons-io;2.0.1 in sbt-chain
+[debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [compile->compile(*)]
+[debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [compile->runtime(*)]
+[debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [compile->compile]
+[debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [compile->default(compile)]
+[debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [compile->runtime]
+[debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [compile->compile]
+[debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [compile->master]
+[debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [runtime->runtime(*)]
+[debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [runtime->compile]
+[debug] == resolving dependencies default#parsers$sbt_2.11;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [default->master]
+[debug] == resolving dependencies default#parsers$sbt_2.11;1.0->commons-io#commons-io;2.0.1 [default->default(compile)]
+[debug] == resolving dependencies default#parsers$sbt_2.11;1.0->commons-io#commons-io;2.0.1 [default->runtime]
+[debug] == resolving dependencies default#parsers$sbt_2.11;1.0->commons-io#commons-io;2.0.1 [default->compile]
+[debug] == resolving dependencies default#parsers$sbt_2.11;1.0->commons-io#commons-io;2.0.1 [default->master]
+[debug] == resolving dependencies default#parsers$sbt_2.11;1.0->net.virtual-void#sbt-dependency-graph;0.7.4 [default->default(compile)]
+[info] Resolving net.virtual-void#sbt-dependency-graph;0.7.4 ...
+[debug] sbt-chain: Checking cache for: dependency: net.virtual-void#sbt-dependency-graph;0.7.4 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: net.virtual-void#sbt-dependency-graph;0.7.4
+[debug] 	found net.virtual-void#sbt-dependency-graph;0.7.4 in sbt-chain
+[debug] 	[0.7.4] net.virtual-void#sbt-dependency-graph;0.7.4
+[debug] == resolving dependencies default#parsers$sbt_2.11;1.0->net.virtual-void#sbt-dependency-graph;0.7.4 [default->runtime]
+[debug] == resolving dependencies default#parsers$sbt_2.11;1.0->net.virtual-void#sbt-dependency-graph;0.7.4 [default->compile]
+[debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->master(compile)]
+[info] Resolving com.github.mdr#ascii-graphs_2.10;0.0.3 ...
+[debug] sbt-chain: Checking cache for: dependency: com.github.mdr#ascii-graphs_2.10;0.0.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: com.github.mdr#ascii-graphs_2.10;0.0.3
+[debug] 	found com.github.mdr#ascii-graphs_2.10;0.0.3 in sbt-chain
+[debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->compile(*)]
+[debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.1 [compile->master(compile)]
+[debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.1 [compile->compile(*)]
+[debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->runtime(*)]
+[debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->compile]
+[debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)]
+[debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->default(compile)]
+[debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->runtime]
+[debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->compile]
+[debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->master]
+[debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [runtime->runtime(*)]
+[debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [runtime->compile]
+[debug] == resolving dependencies default#parsers$sbt_2.11;1.0->net.virtual-void#sbt-dependency-graph;0.7.4 [default->master]
+[debug] == resolving dependencies default#parsers$sbt_2.11;1.0->com.github.mdr#ascii-graphs_2.10;0.0.3 [default->default(compile)]
+[debug] == resolving dependencies default#parsers$sbt_2.11;1.0->com.github.mdr#ascii-graphs_2.10;0.0.3 [default->runtime]
+[debug] == resolving dependencies default#parsers$sbt_2.11;1.0->com.github.mdr#ascii-graphs_2.10;0.0.3 [default->compile]
+[debug] == resolving dependencies default#parsers$sbt_2.11;1.0->com.github.mdr#ascii-graphs_2.10;0.0.3 [default->master]
+[debug] == resolving dependencies default#parsers$sbt_2.11;1.0->org.scala-lang#scala-library;2.10.4 [default->default(compile)]
+[debug] == resolving dependencies default#parsers$sbt_2.11;1.0->org.scala-lang#scala-library;2.10.4 [default->runtime]
+[debug] == resolving dependencies default#parsers$sbt_2.11;1.0->org.scala-lang#scala-library;2.10.4 [default->compile]
+[debug] == resolving dependencies default#parsers$sbt_2.11;1.0->org.scala-lang#scala-library;2.10.4 [default->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.13.8!sbt.jar
+[debug] 	[NOT REQUIRED] com.eed3si9n#sbt-assembly;0.10.2!sbt-assembly.jar
+[debug] 	[NOT REQUIRED] org.scalanlp#sbt-jflex;0.2!sbt-jflex.jar
+[debug] 	[NOT REQUIRED] de.jflex#jflex;1.5.1!jflex.jar
+[debug] 	[NOT REQUIRED] org.apache.ant#ant;1.7.0!ant.jar
+[debug] 	[NOT REQUIRED] org.apache.ant#ant-launcher;1.7.0!ant-launcher.jar
+[debug] 	[NOT REQUIRED] com.github.mpeltonen#sbt-idea;1.6.0!sbt-idea.jar
+[debug] 	[NOT REQUIRED] commons-io#commons-io;2.0.1!commons-io.jar
+[debug] 	[NOT REQUIRED] net.virtual-void#sbt-dependency-graph;0.7.4!sbt-dependency-graph.jar
+[debug] 	[NOT REQUIRED] com.github.mdr#ascii-graphs_2.10;0.0.3!ascii-graphs_2.10.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#main;0.13.8!main.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.8!compiler-interface-bin.jar
@@ -703,9 +858,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.8!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
-[debug] :: resolution report :: resolve 255ms :: artifacts dl 9ms
+[debug] :: resolution report :: resolve 249ms :: artifacts dl 13ms
 [debug] 	report for default#parsers$sbt_2.11;1.0 default produced in /Users/pbhatia/Desktop/Parsers/target/resolution-cache/reports/default-parsers$sbt_2.11-default.xml
-[debug] 	resolve done (255ms resolve - 9ms download)
+[debug] 	resolve done (249ms resolve - 13ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#parsers$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -1015,6 +1170,79 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#precompiled-2_9_3;0.13.8 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#precompiled-2_9_3;0.13.8
 [debug] 	found org.scala-sbt#precompiled-2_9_3;0.13.8 in sbt-chain
+[debug] == resolving dependencies default#parsers$sources_2.11;1.0->com.eed3si9n#sbt-assembly;0.10.2 [default->default(compile)]
+[info] Resolving com.eed3si9n#sbt-assembly;0.10.2 ...
+[debug] sbt-chain: Checking cache for: dependency: com.eed3si9n#sbt-assembly;0.10.2 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: com.eed3si9n#sbt-assembly;0.10.2
+[debug] 	found com.eed3si9n#sbt-assembly;0.10.2 in sbt-chain
+[debug] 	[0.10.2] com.eed3si9n#sbt-assembly;0.10.2
+[debug] == resolving dependencies default#parsers$sources_2.11;1.0->org.scalanlp#sbt-jflex;0.2 [default->default(compile)]
+[info] Resolving org.scalanlp#sbt-jflex;0.2 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scalanlp#sbt-jflex;0.2 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scalanlp#sbt-jflex;0.2
+[debug] 	found org.scalanlp#sbt-jflex;0.2 in sbt-chain
+[debug] 	[0.2] org.scalanlp#sbt-jflex;0.2
+[debug] == resolving dependencies default#parsers$sources_2.11;1.0->org.scalanlp#sbt-jflex;0.2 [default->runtime]
+[debug] == resolving dependencies default#parsers$sources_2.11;1.0->org.scalanlp#sbt-jflex;0.2 [default->compile]
+[debug] == resolving dependencies default#parsers$sources_2.11;1.0->org.scalanlp#sbt-jflex;0.2 [default->master]
+[debug] == resolving dependencies default#parsers$sources_2.11;1.0->de.jflex#jflex;1.5.1 [default->default(compile)]
+[info] Resolving de.jflex#jflex;1.5.1 ...
+[debug] sbt-chain: Checking cache for: dependency: de.jflex#jflex;1.5.1 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: de.jflex#jflex;1.5.1
+[debug] 	found de.jflex#jflex;1.5.1 in sbt-chain
+[debug] == resolving dependencies default#parsers$sources_2.11;1.0->de.jflex#jflex;1.5.1 [default->runtime]
+[debug] == resolving dependencies default#parsers$sources_2.11;1.0->de.jflex#jflex;1.5.1 [default->compile]
+[debug] == resolving dependencies default#parsers$sources_2.11;1.0->de.jflex#jflex;1.5.1 [default->master]
+[debug] == resolving dependencies default#parsers$sources_2.11;1.0->org.apache.ant#ant;1.7.0 [default->default(compile)]
+[info] Resolving org.apache.ant#ant;1.7.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.ant#ant;1.7.0 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.apache.ant#ant;1.7.0
+[debug] 	found org.apache.ant#ant;1.7.0 in sbt-chain
+[debug] == resolving dependencies default#parsers$sources_2.11;1.0->org.apache.ant#ant;1.7.0 [default->runtime]
+[debug] == resolving dependencies default#parsers$sources_2.11;1.0->org.apache.ant#ant;1.7.0 [default->compile]
+[debug] == resolving dependencies default#parsers$sources_2.11;1.0->org.apache.ant#ant;1.7.0 [default->master]
+[debug] == resolving dependencies default#parsers$sources_2.11;1.0->org.apache.ant#ant-launcher;1.7.0 [default->default(compile)]
+[info] Resolving org.apache.ant#ant-launcher;1.7.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.ant#ant-launcher;1.7.0 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.apache.ant#ant-launcher;1.7.0
+[debug] 	found org.apache.ant#ant-launcher;1.7.0 in sbt-chain
+[debug] == resolving dependencies default#parsers$sources_2.11;1.0->org.apache.ant#ant-launcher;1.7.0 [default->runtime]
+[debug] == resolving dependencies default#parsers$sources_2.11;1.0->org.apache.ant#ant-launcher;1.7.0 [default->compile]
+[debug] == resolving dependencies default#parsers$sources_2.11;1.0->org.apache.ant#ant-launcher;1.7.0 [default->master]
+[debug] == resolving dependencies default#parsers$sources_2.11;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [default->default(compile)]
+[info] Resolving com.github.mpeltonen#sbt-idea;1.6.0 ...
+[debug] sbt-chain: Checking cache for: dependency: com.github.mpeltonen#sbt-idea;1.6.0 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: com.github.mpeltonen#sbt-idea;1.6.0
+[debug] 	found com.github.mpeltonen#sbt-idea;1.6.0 in sbt-chain
+[debug] 	[1.6.0] com.github.mpeltonen#sbt-idea;1.6.0
+[debug] == resolving dependencies default#parsers$sources_2.11;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [default->runtime]
+[debug] == resolving dependencies default#parsers$sources_2.11;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [default->compile]
+[debug] == resolving dependencies default#parsers$sources_2.11;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [default->master]
+[debug] == resolving dependencies default#parsers$sources_2.11;1.0->commons-io#commons-io;2.0.1 [default->default(compile)]
+[info] Resolving commons-io#commons-io;2.0.1 ...
+[debug] sbt-chain: Checking cache for: dependency: commons-io#commons-io;2.0.1 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: commons-io#commons-io;2.0.1
+[debug] 	found commons-io#commons-io;2.0.1 in sbt-chain
+[debug] == resolving dependencies default#parsers$sources_2.11;1.0->commons-io#commons-io;2.0.1 [default->runtime]
+[debug] == resolving dependencies default#parsers$sources_2.11;1.0->commons-io#commons-io;2.0.1 [default->compile]
+[debug] == resolving dependencies default#parsers$sources_2.11;1.0->commons-io#commons-io;2.0.1 [default->master]
+[debug] == resolving dependencies default#parsers$sources_2.11;1.0->net.virtual-void#sbt-dependency-graph;0.7.4 [default->default(compile)]
+[info] Resolving net.virtual-void#sbt-dependency-graph;0.7.4 ...
+[debug] sbt-chain: Checking cache for: dependency: net.virtual-void#sbt-dependency-graph;0.7.4 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: net.virtual-void#sbt-dependency-graph;0.7.4
+[debug] 	found net.virtual-void#sbt-dependency-graph;0.7.4 in sbt-chain
+[debug] 	[0.7.4] net.virtual-void#sbt-dependency-graph;0.7.4
+[debug] == resolving dependencies default#parsers$sources_2.11;1.0->net.virtual-void#sbt-dependency-graph;0.7.4 [default->runtime]
+[debug] == resolving dependencies default#parsers$sources_2.11;1.0->net.virtual-void#sbt-dependency-graph;0.7.4 [default->compile]
+[debug] == resolving dependencies default#parsers$sources_2.11;1.0->net.virtual-void#sbt-dependency-graph;0.7.4 [default->master]
+[debug] == resolving dependencies default#parsers$sources_2.11;1.0->com.github.mdr#ascii-graphs_2.10;0.0.3 [default->default(compile)]
+[info] Resolving com.github.mdr#ascii-graphs_2.10;0.0.3 ...
+[debug] sbt-chain: Checking cache for: dependency: com.github.mdr#ascii-graphs_2.10;0.0.3 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: com.github.mdr#ascii-graphs_2.10;0.0.3
+[debug] 	found com.github.mdr#ascii-graphs_2.10;0.0.3 in sbt-chain
+[debug] == resolving dependencies default#parsers$sources_2.11;1.0->com.github.mdr#ascii-graphs_2.10;0.0.3 [default->runtime]
+[debug] == resolving dependencies default#parsers$sources_2.11;1.0->com.github.mdr#ascii-graphs_2.10;0.0.3 [default->compile]
+[debug] == resolving dependencies default#parsers$sources_2.11;1.0->com.github.mdr#ascii-graphs_2.10;0.0.3 [default->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.13.8!sbt.jar(src)
@@ -1069,6 +1297,54 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.8!precompiled-2_8_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.8!precompiled-2_9_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.8!precompiled-2_9_3.jar(src)
-[debug] :: resolution report :: resolve 60ms :: artifacts dl 14ms
+[debug] 	[NOT REQUIRED] com.eed3si9n#sbt-assembly;0.10.2!sbt-assembly.jar(src)
+[debug] 	[NOT REQUIRED] org.scalanlp#sbt-jflex;0.2!sbt-jflex.jar(src)
+[debug] 	[NOT REQUIRED] de.jflex#jflex;1.5.1!jflex.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.ant#ant;1.7.0!ant.jar(src)
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.ant/ant-launcher/1.7.0/srcs/ant-launcher-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.ant/ant-launcher/1.7.0/srcs/ant-launcher-sources.jar
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.ant/ant-launcher/1.7.0/srcs/ant-launcher-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.ant/ant-launcher/1.7.0/srcs/ant-launcher-sources.jar
+[debug] 		tried /Users/pbhatia/.ivy2/local/org.apache.ant/ant-launcher/1.7.0/srcs/ant-launcher-sources.jar
+[debug] 		tried /Users/pbhatia/.activator/repository/org.apache.ant/ant-launcher/1.7.0/srcs/ant-launcher-sources.jar
+[debug] 		tried /Users/pbhatia/Desktop/TypeSafeActivator/activator-dist-1.3.7/repository/org.apache.ant/ant-launcher/1.7.0/srcs/ant-launcher-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.7.0/ant-launcher-1.7.0-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.7.0/ant-launcher-1.7.0-sources.jar
+[debug] 		tried http://repo.typesafe.com/typesafe/releases/org/apache/ant/ant-launcher/1.7.0/ant-launcher-1.7.0-sources.jar
+[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/apache/ant/ant-launcher/1.7.0/ant-launcher-1.7.0-sources.jar
+[debug] 		tried http://repo.typesafe.com/typesafe/ivy-releases/org.apache.ant/ant-launcher/1.7.0/srcs/ant-launcher-sources.jar
+[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.apache.ant/ant-launcher/1.7.0/srcs/ant-launcher-sources.jar
+[debug] 		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.ant/ant-launcher/1.7.0/srcs/ant-launcher-sources.jar
+[debug] CLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.ant/ant-launcher/1.7.0/srcs/ant-launcher-sources.jar
+[warn] 	[FAILED     ] org.apache.ant#ant-launcher;1.7.0!ant-launcher.jar(src):  (0ms)
+[warn] ==== typesafe-ivy-releases: tried
+[warn]   https://repo.typesafe.com/typesafe/ivy-releases/org.apache.ant/ant-launcher/1.7.0/srcs/ant-launcher-sources.jar
+[warn] ==== sbt-plugin-releases: tried
+[warn]   https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.ant/ant-launcher/1.7.0/srcs/ant-launcher-sources.jar
+[warn] ==== local: tried
+[warn]   /Users/pbhatia/.ivy2/local/org.apache.ant/ant-launcher/1.7.0/srcs/ant-launcher-sources.jar
+[warn] ==== activator-launcher-local: tried
+[warn]   /Users/pbhatia/.activator/repository/org.apache.ant/ant-launcher/1.7.0/srcs/ant-launcher-sources.jar
+[warn] ==== activator-local: tried
+[warn]   /Users/pbhatia/Desktop/TypeSafeActivator/activator-dist-1.3.7/repository/org.apache.ant/ant-launcher/1.7.0/srcs/ant-launcher-sources.jar
+[warn] ==== public: tried
+[warn]   https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.7.0/ant-launcher-1.7.0-sources.jar
+[warn] ==== typesafe-releases: tried
+[warn]   http://repo.typesafe.com/typesafe/releases/org/apache/ant/ant-launcher/1.7.0/ant-launcher-1.7.0-sources.jar
+[warn] ==== typesafe-ivy-releasez: tried
+[warn]   http://repo.typesafe.com/typesafe/ivy-releases/org.apache.ant/ant-launcher/1.7.0/srcs/ant-launcher-sources.jar
+[warn] ==== artifactory: tried
+[warn]   http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.apache.ant/ant-launcher/1.7.0/srcs/ant-launcher-sources.jar
+[debug] 	[NOT REQUIRED] com.github.mpeltonen#sbt-idea;1.6.0!sbt-idea.jar(src)
+[debug] 	[NOT REQUIRED] commons-io#commons-io;2.0.1!commons-io.jar(src)
+[debug] 	[NOT REQUIRED] net.virtual-void#sbt-dependency-graph;0.7.4!sbt-dependency-graph.jar(src)
+[debug] 	[NOT REQUIRED] com.github.mdr#ascii-graphs_2.10;0.0.3!ascii-graphs_2.10.jar(src)
+[debug] :: resolution report :: resolve 62ms :: artifacts dl 1230ms
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[warn] 	::              FAILED DOWNLOADS            ::
+[warn] 	:: ^ see resolution messages for details  ^ ::
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[warn] 	:: org.apache.ant#ant-launcher;1.7.0!ant-launcher.jar(src)
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
 [debug] 	report for default#parsers$sources_2.11;1.0 default produced in /Users/pbhatia/Desktop/Parsers/target/resolution-cache/reports/default-parsers$sources_2.11-default.xml
-[debug] 	resolve done (60ms resolve - 14ms download)
+[debug] 	resolve done (62ms resolve - 1230ms download)

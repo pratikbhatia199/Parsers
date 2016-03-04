@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="parsers-build" external.linked.project.path="$MODULE_DIR$/../../project" external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" sbt.imports="sbt._, Keys._, dsl._, _root_.sbt.plugins.IvyPlugin, _root_.sbt.plugins.JvmPlugin, _root_.sbt.plugins.CorePlugin, _root_.sbt.plugins.JUnitXmlReportPlugin" sbt.resolvers="https://repo1.maven.org/maven2/|maven|public, http://repo.typesafe.com/typesafe/releases|maven|typesafe-releases, /Users/pbhatia/.ivy2/cache|ivy|Local cache" type="SBT_MODULE" version="4">
+<module external.linked.project.id="parsers-build" external.linked.project.path="$MODULE_DIR$/../../project" external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" sbt.imports="sbt._, Keys._, dsl._, _root_.sbtassembly.Plugin._, _root_.sbtjflex.SbtJFlexPlugin._, _root_.org.sbtidea.SbtIdeaPlugin._, _root_.net.virtualvoid.sbt.graph.Plugin._, _root_.sbt.plugins.IvyPlugin, _root_.sbt.plugins.JvmPlugin, _root_.sbt.plugins.CorePlugin, _root_.sbt.plugins.JUnitXmlReportPlugin" sbt.resolvers="$USER_HOME$/.ivy2/cache|ivy|Local cache, http://repo.typesafe.com/typesafe/releases|maven|typesafe-releases, http://repo.scalanlp.org/repo|maven|ScalaNLP Maven2, http://scala-tools.org/repo-snapshots/|maven|Scala Tools Snapshots, https://oss.sonatype.org/content/repositories/snapshots/|maven|Sonatype Snapshots, https://repo1.maven.org/maven2/|maven|public" type="SBT_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/../../project/target/idea-classes" />
     <output-test url="file://$MODULE_DIR$/../../project/target/idea-test-classes" />
@@ -25,10 +25,14 @@
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/test-agent-0.13.8.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/apply-macro-0.13.8.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/incremental-compiler-0.13.8.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.ant/ant/jars/ant-1.7.0.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/json4s-support_2.10-0.6.0.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/quasiquotes_2.10-2.0.1.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.4/lib/scala-reflect.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/scala_2.10/sbt_0.13/net.virtual-void/sbt-dependency-graph/jars/sbt-dependency-graph-0.7.4.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/de.jflex/jflex/jars/jflex-1.5.1.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/json4s-ast_2.10-3.2.10.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/scala_2.10/sbt_0.13/com.eed3si9n/sbt-assembly/jars/sbt-assembly-0.10.2.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/jline-2.11.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/main-0.13.8.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/cache-0.13.8.jar!/" />
@@ -38,16 +42,21 @@
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/compiler-ivy-integration-0.13.8.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/compiler-integration-0.13.8.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/ivy-2.3.0-sbt-fccfbd44c9f64523b61398a0155784dcbaeae28f.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/scala_2.10/sbt_0.13/com.github.mpeltonen/sbt-idea/jars/sbt-idea-1.6.0.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/run-0.13.8.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/tasks-0.13.8.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/cross-0.13.8.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/relation-0.13.8.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/sbt-0.13.8.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/test-interface-1.0.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.github.mdr/ascii-graphs_2.10/jars/ascii-graphs_2.10-0.0.3.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/scala_2.10/sbt_0.13/org.scalanlp/sbt-jflex/jars/sbt-jflex-0.2.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.4/lib/scala-library.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.4/lib/jansi.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/task-system-0.13.8.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/commons-io/commons-io/jars/commons-io-2.0.1.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/tracking-0.13.8.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.ant/ant-launcher/jars/ant-launcher-1.7.0.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/launcher-interface-0.13.8.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/testing-0.13.8.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/io-0.13.8.jar!/" />
@@ -74,12 +83,16 @@
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/actions/srcs/actions-0.13.8-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/compiler-integration/srcs/compiler-integration-0.13.8-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.json4s/json4s-core_2.10/srcs/json4s-core_2.10-3.2.10-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.ant/ant/srcs/ant-1.7.0-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/interface/srcs/interface-0.13.8-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.10.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/scala_2.10/sbt_0.13/net.virtual-void/sbt-dependency-graph/srcs/sbt-dependency-graph-0.7.4-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/command/srcs/command-0.13.8-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.github.mdr/ascii-graphs_2.10/srcs/ascii-graphs_2.10-0.0.3-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/com.jcraft/jsch/srcs/jsch-0.1.46-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/tracking/srcs/tracking-0.13.8-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/precompiled-2_9_2/srcs/precompiled-2_9_2-0.13.8-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/commons-io/commons-io/srcs/commons-io-2.0.1-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-compiler/srcs/scala-compiler-2.10.4-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/logging/srcs/logging-0.13.8-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/main-settings/srcs/main-settings-0.13.8-sources.jar!/" />
@@ -103,7 +116,9 @@
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/classfile/srcs/classfile-0.13.8-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/control/srcs/control-0.13.8-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/compile/srcs/compile-0.13.8-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/scala_2.10/sbt_0.13/org.scalanlp/sbt-jflex/srcs/sbt-jflex-0.2-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/collections/srcs/collections-0.13.8-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/scala_2.10/sbt_0.13/com.github.mpeltonen/sbt-idea/srcs/sbt-idea-1.6.0-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scalamacros/quasiquotes_2.10/srcs/quasiquotes_2.10-2.0.1-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/process/srcs/process-0.13.8-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/incremental-compiler/srcs/incremental-compiler-0.13.8-sources.jar!/" />
@@ -118,7 +133,9 @@
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-tools.sbinary/sbinary_2.10/srcs/sbinary_2.10-0.4.2-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/compiler-ivy-integration/srcs/compiler-ivy-integration-0.13.8-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/precompiled-2_8_2/srcs/precompiled-2_8_2-0.13.8-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/scala_2.10/sbt_0.13/com.eed3si9n/sbt-assembly/srcs/sbt-assembly-0.10.2-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/io/srcs/io-0.13.8-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/de.jflex/jflex/srcs/jflex-1.5.1-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/serialization_2.10/srcs/serialization_2.10-0.1.1-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/cache/srcs/cache-0.13.8-sources.jar!/" />
         </SOURCES>

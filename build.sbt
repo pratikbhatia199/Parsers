@@ -16,7 +16,6 @@ libraryDependencies ++= Seq(
   "org.scalanlp" %% "epic-parser-en-span" % "2015.1.25",
   "org.scalanlp" %% "epic-pos-en" % "2015.1.25",
   "org.scalanlp" %% "epic-ner-en-conll" % "2015.1.25",
-  "junit" % "junit" % "4.5" % "test",
   "org.scalanlp" %% "english"  % "2015.1.25"
 )
 
