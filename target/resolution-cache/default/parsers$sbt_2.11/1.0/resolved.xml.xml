@@ -4,7 +4,7 @@
 		module="parsers$sbt_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160304141121"
+		publication="20160312015048"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>

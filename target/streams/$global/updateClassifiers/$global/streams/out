@@ -9,7 +9,7 @@
 [debug] == resolving dependencies for default#parsers$sources_javadoc_2.11;1.0 [compile]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@598ebed3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1fb829cc
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7
 [debug] 	found org.scala-lang#scala-library;2.11.7 in sbt-chain
 [debug] 	[2.11.7] org.scala-lang#scala-library;2.11.7
@@ -18,7 +18,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#core;1.1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7f1de142
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@486d3129
 [debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#core;1.1.2
 [debug] 	found com.github.fommil.netlib#core;1.1.2 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [compile->runtime]
@@ -26,7 +26,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->default(compile)]
 [info] Resolving net.sourceforge.f2j#arpack_combined_all;0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7044111
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55a9bd48
 [debug] sbt-chain: module revision found in cache: net.sourceforge.f2j#arpack_combined_all;0.1
 [debug] 	found net.sourceforge.f2j#arpack_combined_all;0.1 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->runtime]
@@ -34,7 +34,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->net.sf.opencsv#opencsv;2.3 [compile->default(compile)]
 [info] Resolving net.sf.opencsv#opencsv;2.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@186c4817
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c4dc39b
 [debug] sbt-chain: module revision found in cache: net.sf.opencsv#opencsv;2.3
 [debug] 	found net.sf.opencsv#opencsv;2.3 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->net.sf.opencsv#opencsv;2.3 [compile->runtime]
@@ -42,7 +42,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->net.sf.opencsv#opencsv;2.3 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.github.rwl#jtransforms;2.4.0 [compile->default(compile)]
 [info] Resolving com.github.rwl#jtransforms;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7fba1675
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6735463d
 [debug] sbt-chain: module revision found in cache: com.github.rwl#jtransforms;2.4.0
 [debug] 	found com.github.rwl#jtransforms;2.4.0 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.github.rwl#jtransforms;2.4.0 [compile->runtime]
@@ -50,7 +50,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.github.rwl#jtransforms;2.4.0 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->junit#junit;4.8.2 [compile->default(compile)]
 [info] Resolving junit#junit;4.8.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@530ed558
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@271b80ab
 [debug] sbt-chain: module revision found in cache: junit#junit;4.8.2
 [debug] 	found junit#junit;4.8.2 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->junit#junit;4.8.2 [compile->runtime]
@@ -58,7 +58,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->junit#junit;4.8.2 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.commons#commons-math3;3.2 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-math3;3.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@39b5516b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@699780ef
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-math3;3.2
 [debug] 	found org.apache.commons#commons-math3;3.2 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.commons#commons-math3;3.2 [compile->runtime]
@@ -66,7 +66,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.commons#commons-math3;3.2 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.spire-math#spire_2.11;0.7.4 [compile->default(compile)]
 [info] Resolving org.spire-math#spire_2.11;0.7.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@238574ad
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@77046250
 [debug] sbt-chain: module revision found in cache: org.spire-math#spire_2.11;0.7.4
 [debug] 	found org.spire-math#spire_2.11;0.7.4 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.spire-math#spire_2.11;0.7.4 [compile->runtime]
@@ -74,7 +74,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.spire-math#spire_2.11;0.7.4 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.spire-math#spire-macros_2.11;0.7.4 [compile->default(compile)]
 [info] Resolving org.spire-math#spire-macros_2.11;0.7.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@50906f3a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@34348907
 [debug] sbt-chain: module revision found in cache: org.spire-math#spire-macros_2.11;0.7.4
 [debug] 	found org.spire-math#spire-macros_2.11;0.7.4 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.spire-math#spire-macros_2.11;0.7.4 [compile->runtime]
@@ -82,7 +82,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.spire-math#spire-macros_2.11;0.7.4 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.scalanlp#breeze-config_2.11;0.9.1 [compile->default(compile)]
 [info] Resolving org.scalanlp#breeze-config_2.11;0.9.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42c96373
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@641e09b9
 [debug] sbt-chain: module revision found in cache: org.scalanlp#breeze-config_2.11;0.9.1
 [debug] 	found org.scalanlp#breeze-config_2.11;0.9.1 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.scalanlp#breeze-config_2.11;0.9.1 [compile->runtime]
@@ -90,7 +90,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.scalanlp#breeze-config_2.11;0.9.1 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.thoughtworks.paranamer#paranamer;2.2 [compile->default(compile)]
 [info] Resolving com.thoughtworks.paranamer#paranamer;2.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6769d23b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3fde9a58
 [debug] sbt-chain: module revision found in cache: com.thoughtworks.paranamer#paranamer;2.2
 [debug] 	found com.thoughtworks.paranamer#paranamer;2.2 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.thoughtworks.paranamer#paranamer;2.2 [compile->runtime]
@@ -98,7 +98,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.thoughtworks.paranamer#paranamer;2.2 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.scalanlp#nak_2.11;1.3 [compile->default(compile)]
 [info] Resolving org.scalanlp#nak_2.11;1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e5649af
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@e8dc91d
 [debug] sbt-chain: module revision found in cache: org.scalanlp#nak_2.11;1.3
 [debug] 	found org.scalanlp#nak_2.11;1.3 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.scalanlp#nak_2.11;1.3 [compile->runtime]
@@ -106,7 +106,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.scalanlp#nak_2.11;1.3 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.rogach#scallop_2.11;0.9.5 [compile->default(compile)]
 [info] Resolving org.rogach#scallop_2.11;0.9.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@300566ee
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@76003d28
 [debug] sbt-chain: module revision found in cache: org.rogach#scallop_2.11;0.9.5
 [debug] 	found org.rogach#scallop_2.11;0.9.5 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.rogach#scallop_2.11;0.9.5 [compile->runtime]
@@ -114,7 +114,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.rogach#scallop_2.11;0.9.5 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.typesafe.scala-logging#scala-logging-slf4j_2.11;2.1.2 [compile->default(compile)]
 [info] Resolving com.typesafe.scala-logging#scala-logging-slf4j_2.11;2.1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@47114c82
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@539aea06
 [debug] sbt-chain: module revision found in cache: com.typesafe.scala-logging#scala-logging-slf4j_2.11;2.1.2
 [debug] 	found com.typesafe.scala-logging#scala-logging-slf4j_2.11;2.1.2 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.typesafe.scala-logging#scala-logging-slf4j_2.11;2.1.2 [compile->runtime]
@@ -122,7 +122,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.typesafe.scala-logging#scala-logging-slf4j_2.11;2.1.2 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.typesafe.scala-logging#scala-logging-api_2.11;2.1.2 [compile->default(compile)]
 [info] Resolving com.typesafe.scala-logging#scala-logging-api_2.11;2.1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@26ddf050
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@41ef063f
 [debug] sbt-chain: module revision found in cache: com.typesafe.scala-logging#scala-logging-api_2.11;2.1.2
 [debug] 	found com.typesafe.scala-logging#scala-logging-api_2.11;2.1.2 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.typesafe.scala-logging#scala-logging-api_2.11;2.1.2 [compile->runtime]
@@ -130,7 +130,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.typesafe.scala-logging#scala-logging-api_2.11;2.1.2 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.slf4j#slf4j-api;1.7.7 [compile->default(compile)]
 [info] Resolving org.slf4j#slf4j-api;1.7.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32f578bb
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@585f2cba
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.7
 [debug] 	found org.slf4j#slf4j-api;1.7.7 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.slf4j#slf4j-api;1.7.7 [compile->runtime]
@@ -138,7 +138,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.slf4j#slf4j-api;1.7.7 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.scalanlp#breeze-natives_2.11;0.8 [compile->default(compile)]
 [info] Resolving org.scalanlp#breeze-natives_2.11;0.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4140788a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2eaae10f
 [debug] sbt-chain: module revision found in cache: org.scalanlp#breeze-natives_2.11;0.8
 [debug] 	found org.scalanlp#breeze-natives_2.11;0.8 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.scalanlp#breeze-natives_2.11;0.8 [compile->runtime]
@@ -146,9 +146,9 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.scalanlp#breeze-natives_2.11;0.8 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@48e616f3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6abcca98
 [info] Resolving com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@48e616f3
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@6abcca98
 [debug] 		tried /Users/pbhatia/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-osx-x86_64/1.1/ivys/ivy.xml
 [debug] 	local: no ivy file found for com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1
 [debug] 		tried /Users/pbhatia/.activator/repository/com.github.fommil.netlib/netlib-native_ref-osx-x86_64/1.1/ivys/ivy.xml
@@ -162,7 +162,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.pom
-[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1!netlib-native_ref-osx-x86_64.pom(pom.original) (41ms)
+[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1!netlib-native_ref-osx-x86_64.pom(pom.original) (156ms)
 [info] Resolving com.github.fommil.netlib#native_ref;1.1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_ref;1.1 {}
 [debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#native_ref;1.1
@@ -176,9 +176,9 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.github.fommil.netlib#native_ref-java;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#native_ref-java;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@21ee6b32
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ce75d3c
 [info] Resolving com.github.fommil.netlib#native_ref-java;1.1 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@21ee6b32
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@6ce75d3c
 [debug] 		tried /Users/pbhatia/.ivy2/local/com.github.fommil.netlib/native_ref-java/1.1/ivys/ivy.xml
 [debug] 	local: no ivy file found for com.github.fommil.netlib#native_ref-java;1.1
 [debug] 		tried /Users/pbhatia/.activator/repository/com.github.fommil.netlib/native_ref-java/1.1/ivys/ivy.xml
@@ -192,7 +192,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1.pom
-[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#native_ref-java;1.1!native_ref-java.pom(pom.original) (49ms)
+[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#native_ref-java;1.1!native_ref-java.pom(pom.original) (150ms)
 [info] Resolving com.github.fommil.netlib#native_ref;1.1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_ref;1.1 {}
 [debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#native_ref;1.1
@@ -202,7 +202,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.github.fommil.netlib#native_ref-java;1.1 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.github.fommil#jniloader;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil#jniloader;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@709c2983
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@e5c38cf
 [debug] sbt-chain: module revision found in cache: com.github.fommil#jniloader;1.1
 [debug] 	found com.github.fommil#jniloader;1.1 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.github.fommil#jniloader;1.1 [compile->runtime]
@@ -210,9 +210,9 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.github.fommil#jniloader;1.1 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2500f985
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@67941797
 [info] Resolving com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@2500f985
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@67941797
 [debug] 		tried /Users/pbhatia/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-linux-x86_64/1.1/ivys/ivy.xml
 [debug] 	local: no ivy file found for com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1
 [debug] 		tried /Users/pbhatia/.activator/repository/com.github.fommil.netlib/netlib-native_ref-linux-x86_64/1.1/ivys/ivy.xml
@@ -226,7 +226,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.pom
-[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1!netlib-native_ref-linux-x86_64.pom(pom.original) (41ms)
+[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1!netlib-native_ref-linux-x86_64.pom(pom.original) (140ms)
 [info] Resolving com.github.fommil.netlib#native_ref-xbuilds;1.1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_ref-xbuilds;1.1 {}
 [info] Resolving com.github.fommil.netlib#native_ref-xbuilds;1.1 ...
@@ -244,7 +244,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-xbuilds/1.1/native_ref-xbuilds-1.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-xbuilds/1.1/native_ref-xbuilds-1.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-xbuilds/1.1/native_ref-xbuilds-1.1.pom
-[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#native_ref-xbuilds;1.1!native_ref-xbuilds.pom(pom.original) (45ms)
+[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#native_ref-xbuilds;1.1!native_ref-xbuilds.pom(pom.original) (142ms)
 [info] Resolving com.github.fommil.netlib#native_ref;1.1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_ref;1.1 {}
 [debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#native_ref;1.1
@@ -273,9 +273,9 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@53460a1e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1289958e
 [info] Resolving com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@53460a1e
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@1289958e
 [debug] 		tried /Users/pbhatia/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-linux-i686/1.1/ivys/ivy.xml
 [debug] 	local: no ivy file found for com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1
 [debug] 		tried /Users/pbhatia/.activator/repository/com.github.fommil.netlib/netlib-native_ref-linux-i686/1.1/ivys/ivy.xml
@@ -289,7 +289,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1.pom
-[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1!netlib-native_ref-linux-i686.pom(pom.original) (65ms)
+[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1!netlib-native_ref-linux-i686.pom(pom.original) (154ms)
 [info] Resolving com.github.fommil.netlib#native_ref-xbuilds;1.1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_ref-xbuilds;1.1 {}
 [debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#native_ref-xbuilds;1.1
@@ -303,9 +303,9 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@500c23f4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@22589351
 [info] Resolving com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@500c23f4
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@22589351
 [debug] 		tried /Users/pbhatia/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-win-x86_64/1.1/ivys/ivy.xml
 [debug] 	local: no ivy file found for com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1
 [debug] 		tried /Users/pbhatia/.activator/repository/com.github.fommil.netlib/netlib-native_ref-win-x86_64/1.1/ivys/ivy.xml
@@ -319,7 +319,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1.pom
-[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1!netlib-native_ref-win-x86_64.pom(pom.original) (44ms)
+[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1!netlib-native_ref-win-x86_64.pom(pom.original) (139ms)
 [info] Resolving com.github.fommil.netlib#native_ref;1.1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_ref;1.1 {}
 [debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#native_ref;1.1
@@ -333,9 +333,9 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.github.fommil.netlib#netlib-native_ref-win-i686;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#netlib-native_ref-win-i686;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7877efa8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3547871b
 [info] Resolving com.github.fommil.netlib#netlib-native_ref-win-i686;1.1 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@7877efa8
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@3547871b
 [debug] 		tried /Users/pbhatia/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-win-i686/1.1/ivys/ivy.xml
 [debug] 	local: no ivy file found for com.github.fommil.netlib#netlib-native_ref-win-i686;1.1
 [debug] 		tried /Users/pbhatia/.activator/repository/com.github.fommil.netlib/netlib-native_ref-win-i686/1.1/ivys/ivy.xml
@@ -349,7 +349,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1.pom
-[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-win-i686;1.1!netlib-native_ref-win-i686.pom(pom.original) (46ms)
+[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-win-i686;1.1!netlib-native_ref-win-i686.pom(pom.original) (148ms)
 [info] Resolving com.github.fommil.netlib#native_ref;1.1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_ref;1.1 {}
 [debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#native_ref;1.1
@@ -363,9 +363,9 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.github.fommil.netlib#netlib-native_ref-win-i686;1.1 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@735c8500
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ed82a7e
 [info] Resolving com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@735c8500
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@6ed82a7e
 [debug] 		tried /Users/pbhatia/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-linux-armhf/1.1/ivys/ivy.xml
 [debug] 	local: no ivy file found for com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1
 [debug] 		tried /Users/pbhatia/.activator/repository/com.github.fommil.netlib/netlib-native_ref-linux-armhf/1.1/ivys/ivy.xml
@@ -379,7 +379,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1.pom
-[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1!netlib-native_ref-linux-armhf.pom(pom.original) (43ms)
+[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1!netlib-native_ref-linux-armhf.pom(pom.original) (148ms)
 [info] Resolving com.github.fommil.netlib#native_ref-xbuilds;1.1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_ref-xbuilds;1.1 {}
 [debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#native_ref-xbuilds;1.1
@@ -393,9 +393,9 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@363dda54
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e632f2c
 [info] Resolving com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@363dda54
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@4e632f2c
 [debug] 		tried /Users/pbhatia/.ivy2/local/com.github.fommil.netlib/netlib-native_system-osx-x86_64/1.1/ivys/ivy.xml
 [debug] 	local: no ivy file found for com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1
 [debug] 		tried /Users/pbhatia/.activator/repository/com.github.fommil.netlib/netlib-native_system-osx-x86_64/1.1/ivys/ivy.xml
@@ -409,7 +409,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.pom
-[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1!netlib-native_system-osx-x86_64.pom(pom.original) (46ms)
+[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1!netlib-native_system-osx-x86_64.pom(pom.original) (138ms)
 [info] Resolving com.github.fommil.netlib#native_system;1.1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_system;1.1 {}
 [debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#native_system;1.1
@@ -423,9 +423,9 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.github.fommil.netlib#native_system-java;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#native_system-java;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5376e913
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@427f790c
 [info] Resolving com.github.fommil.netlib#native_system-java;1.1 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@5376e913
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@427f790c
 [debug] 		tried /Users/pbhatia/.ivy2/local/com.github.fommil.netlib/native_system-java/1.1/ivys/ivy.xml
 [debug] 	local: no ivy file found for com.github.fommil.netlib#native_system-java;1.1
 [debug] 		tried /Users/pbhatia/.activator/repository/com.github.fommil.netlib/native_system-java/1.1/ivys/ivy.xml
@@ -439,7 +439,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.pom
-[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#native_system-java;1.1!native_system-java.pom(pom.original) (51ms)
+[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#native_system-java;1.1!native_system-java.pom(pom.original) (144ms)
 [info] Resolving com.github.fommil.netlib#native_system;1.1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_system;1.1 {}
 [debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#native_system;1.1
@@ -449,9 +449,9 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.github.fommil.netlib#native_system-java;1.1 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@130372dd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@679f4ba3
 [info] Resolving com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@130372dd
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@679f4ba3
 [debug] 		tried /Users/pbhatia/.ivy2/local/com.github.fommil.netlib/netlib-native_system-linux-x86_64/1.1/ivys/ivy.xml
 [debug] 	local: no ivy file found for com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1
 [debug] 		tried /Users/pbhatia/.activator/repository/com.github.fommil.netlib/netlib-native_system-linux-x86_64/1.1/ivys/ivy.xml
@@ -465,7 +465,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.pom
-[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1!netlib-native_system-linux-x86_64.pom(pom.original) (60ms)
+[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1!netlib-native_system-linux-x86_64.pom(pom.original) (143ms)
 [info] Resolving com.github.fommil.netlib#native_system-xbuilds;1.1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_system-xbuilds;1.1 {}
 [info] Resolving com.github.fommil.netlib#native_system-xbuilds;1.1 ...
@@ -483,7 +483,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-xbuilds/1.1/native_system-xbuilds-1.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-xbuilds/1.1/native_system-xbuilds-1.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-xbuilds/1.1/native_system-xbuilds-1.1.pom
-[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#native_system-xbuilds;1.1!native_system-xbuilds.pom(pom.original) (48ms)
+[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#native_system-xbuilds;1.1!native_system-xbuilds.pom(pom.original) (151ms)
 [info] Resolving com.github.fommil.netlib#native_system;1.1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_system;1.1 {}
 [debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#native_system;1.1
@@ -512,9 +512,9 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.github.fommil.netlib#netlib-native_system-linux-i686;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#netlib-native_system-linux-i686;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@537dd657
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@595fb4ac
 [info] Resolving com.github.fommil.netlib#netlib-native_system-linux-i686;1.1 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@537dd657
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@595fb4ac
 [debug] 		tried /Users/pbhatia/.ivy2/local/com.github.fommil.netlib/netlib-native_system-linux-i686/1.1/ivys/ivy.xml
 [debug] 	local: no ivy file found for com.github.fommil.netlib#netlib-native_system-linux-i686;1.1
 [debug] 		tried /Users/pbhatia/.activator/repository/com.github.fommil.netlib/netlib-native_system-linux-i686/1.1/ivys/ivy.xml
@@ -528,7 +528,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1.pom
-[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-linux-i686;1.1!netlib-native_system-linux-i686.pom(pom.original) (44ms)
+[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-linux-i686;1.1!netlib-native_system-linux-i686.pom(pom.original) (193ms)
 [info] Resolving com.github.fommil.netlib#native_system-xbuilds;1.1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_system-xbuilds;1.1 {}
 [debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#native_system-xbuilds;1.1
@@ -542,9 +542,9 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.github.fommil.netlib#netlib-native_system-linux-i686;1.1 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a7a6206
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@700c515a
 [info] Resolving com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@2a7a6206
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@700c515a
 [debug] 		tried /Users/pbhatia/.ivy2/local/com.github.fommil.netlib/netlib-native_system-linux-armhf/1.1/ivys/ivy.xml
 [debug] 	local: no ivy file found for com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1
 [debug] 		tried /Users/pbhatia/.activator/repository/com.github.fommil.netlib/netlib-native_system-linux-armhf/1.1/ivys/ivy.xml
@@ -558,7 +558,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.pom
-[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1!netlib-native_system-linux-armhf.pom(pom.original) (47ms)
+[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1!netlib-native_system-linux-armhf.pom(pom.original) (139ms)
 [info] Resolving com.github.fommil.netlib#native_system-xbuilds;1.1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_system-xbuilds;1.1 {}
 [debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#native_system-xbuilds;1.1
@@ -572,9 +572,9 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ef12437
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@48fec184
 [info] Resolving com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@3ef12437
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@48fec184
 [debug] 		tried /Users/pbhatia/.ivy2/local/com.github.fommil.netlib/netlib-native_system-win-x86_64/1.1/ivys/ivy.xml
 [debug] 	local: no ivy file found for com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1
 [debug] 		tried /Users/pbhatia/.activator/repository/com.github.fommil.netlib/netlib-native_system-win-x86_64/1.1/ivys/ivy.xml
@@ -588,7 +588,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.pom
-[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1!netlib-native_system-win-x86_64.pom(pom.original) (49ms)
+[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1!netlib-native_system-win-x86_64.pom(pom.original) (141ms)
 [info] Resolving com.github.fommil.netlib#native_system;1.1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_system;1.1 {}
 [debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#native_system;1.1
@@ -602,9 +602,9 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.github.fommil.netlib#netlib-native_system-win-i686;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#netlib-native_system-win-i686;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3dc857b2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@60c2d8a9
 [info] Resolving com.github.fommil.netlib#netlib-native_system-win-i686;1.1 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@3dc857b2
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@60c2d8a9
 [debug] 		tried /Users/pbhatia/.ivy2/local/com.github.fommil.netlib/netlib-native_system-win-i686/1.1/ivys/ivy.xml
 [debug] 	local: no ivy file found for com.github.fommil.netlib#netlib-native_system-win-i686;1.1
 [debug] 		tried /Users/pbhatia/.activator/repository/com.github.fommil.netlib/netlib-native_system-win-i686/1.1/ivys/ivy.xml
@@ -618,7 +618,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.pom
-[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-win-i686;1.1!netlib-native_system-win-i686.pom(pom.original) (47ms)
+[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-win-i686;1.1!netlib-native_system-win-i686.pom(pom.original) (135ms)
 [info] Resolving com.github.fommil.netlib#native_system;1.1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_system;1.1 {}
 [debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#native_system;1.1
@@ -632,7 +632,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.github.fommil.netlib#netlib-native_system-win-i686;1.1 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.logging.log4j#log4j-core;2.0-beta8 [compile->default(compile)]
 [info] Resolving org.apache.logging.log4j#log4j-core;2.0-beta8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@14518a7b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4755588e
 [debug] sbt-chain: module revision found in cache: org.apache.logging.log4j#log4j-core;2.0-beta8
 [debug] 	found org.apache.logging.log4j#log4j-core;2.0-beta8 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.logging.log4j#log4j-core;2.0-beta8 [compile->runtime]
@@ -640,7 +640,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.logging.log4j#log4j-core;2.0-beta8 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.logging.log4j#log4j-api;2.0-beta8 [compile->default(compile)]
 [info] Resolving org.apache.logging.log4j#log4j-api;2.0-beta8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@215cab55
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1cc0d08
 [debug] sbt-chain: module revision found in cache: org.apache.logging.log4j#log4j-api;2.0-beta8
 [debug] 	found org.apache.logging.log4j#log4j-api;2.0-beta8 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.logging.log4j#log4j-api;2.0-beta8 [compile->runtime]
@@ -648,7 +648,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.logging.log4j#log4j-api;2.0-beta8 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.mapdb#mapdb;0.9.2 [compile->default(compile)]
 [info] Resolving org.mapdb#mapdb;0.9.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5444a95f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10414d63
 [debug] sbt-chain: module revision found in cache: org.mapdb#mapdb;0.9.2
 [debug] 	found org.mapdb#mapdb;0.9.2 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.mapdb#mapdb;0.9.2 [compile->runtime]
@@ -656,7 +656,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.mapdb#mapdb;0.9.2 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.tika#tika-parsers;1.5 [compile->default(compile)]
 [info] Resolving org.apache.tika#tika-parsers;1.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d4d8218
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7aab72b1
 [debug] sbt-chain: module revision found in cache: org.apache.tika#tika-parsers;1.5
 [debug] 	found org.apache.tika#tika-parsers;1.5 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.tika#tika-parsers;1.5 [compile->runtime]
@@ -664,7 +664,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.tika#tika-parsers;1.5 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.tika#tika-core;1.5 [compile->default(compile)]
 [info] Resolving org.apache.tika#tika-core;1.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@73f023c7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1af87a86
 [debug] sbt-chain: module revision found in cache: org.apache.tika#tika-core;1.5
 [debug] 	found org.apache.tika#tika-core;1.5 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.tika#tika-core;1.5 [compile->runtime]
@@ -672,7 +672,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.tika#tika-core;1.5 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.gagravarr#vorbis-java-tika;0.1 [compile->default(compile)]
 [info] Resolving org.gagravarr#vorbis-java-tika;0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1ac82038
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4974caec
 [debug] sbt-chain: module revision found in cache: org.gagravarr#vorbis-java-tika;0.1
 [debug] 	found org.gagravarr#vorbis-java-tika;0.1 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.gagravarr#vorbis-java-tika;0.1 [compile->runtime]
@@ -680,7 +680,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.gagravarr#vorbis-java-tika;0.1 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.gagravarr#vorbis-java-core;0.1 [compile->default(compile)]
 [info] Resolving org.gagravarr#vorbis-java-core;0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@276bcd7b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@686a2ce0
 [debug] sbt-chain: module revision found in cache: org.gagravarr#vorbis-java-core;0.1
 [debug] 	found org.gagravarr#vorbis-java-core;0.1 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.gagravarr#vorbis-java-core;0.1 [compile->runtime]
@@ -688,7 +688,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.gagravarr#vorbis-java-core;0.1 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.james#apache-mime4j-core;0.7.2 [compile->default(compile)]
 [info] Resolving org.apache.james#apache-mime4j-core;0.7.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@58dfab7d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@43738e91
 [debug] sbt-chain: module revision found in cache: org.apache.james#apache-mime4j-core;0.7.2
 [debug] 	found org.apache.james#apache-mime4j-core;0.7.2 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.james#apache-mime4j-core;0.7.2 [compile->runtime]
@@ -696,7 +696,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.james#apache-mime4j-core;0.7.2 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.james#apache-mime4j-dom;0.7.2 [compile->default(compile)]
 [info] Resolving org.apache.james#apache-mime4j-dom;0.7.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@691c08c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@44583434
 [debug] sbt-chain: module revision found in cache: org.apache.james#apache-mime4j-dom;0.7.2
 [debug] 	found org.apache.james#apache-mime4j-dom;0.7.2 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.james#apache-mime4j-dom;0.7.2 [compile->runtime]
@@ -704,7 +704,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.james#apache-mime4j-dom;0.7.2 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.commons#commons-compress;1.5 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-compress;1.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2fb44ccb
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42d150c7
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-compress;1.5
 [debug] 	found org.apache.commons#commons-compress;1.5 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.commons#commons-compress;1.5 [compile->runtime]
@@ -712,7 +712,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.commons#commons-compress;1.5 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.tukaani#xz;1.2 [compile->default(compile)]
 [info] Resolving org.tukaani#xz;1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6335a29c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7f4a1d42
 [debug] sbt-chain: module revision found in cache: org.tukaani#xz;1.2
 [debug] 	found org.tukaani#xz;1.2 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.tukaani#xz;1.2 [compile->runtime]
@@ -720,7 +720,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.tukaani#xz;1.2 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->commons-codec#commons-codec;1.5 [compile->default(compile)]
 [info] Resolving commons-codec#commons-codec;1.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@70a8ea58
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1db5ed6f
 [debug] sbt-chain: module revision found in cache: commons-codec#commons-codec;1.5
 [debug] 	found commons-codec#commons-codec;1.5 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->commons-codec#commons-codec;1.5 [compile->runtime]
@@ -728,7 +728,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->commons-codec#commons-codec;1.5 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.pdfbox#pdfbox;1.8.4 [compile->default(compile)]
 [info] Resolving org.apache.pdfbox#pdfbox;1.8.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@674dfcfc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4ea8d4ff
 [debug] sbt-chain: module revision found in cache: org.apache.pdfbox#pdfbox;1.8.4
 [debug] 	found org.apache.pdfbox#pdfbox;1.8.4 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.pdfbox#pdfbox;1.8.4 [compile->runtime]
@@ -736,7 +736,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.pdfbox#pdfbox;1.8.4 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.pdfbox#fontbox;1.8.4 [compile->default(compile)]
 [info] Resolving org.apache.pdfbox#fontbox;1.8.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6f530699
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6dbecb37
 [debug] sbt-chain: module revision found in cache: org.apache.pdfbox#fontbox;1.8.4
 [debug] 	found org.apache.pdfbox#fontbox;1.8.4 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.pdfbox#fontbox;1.8.4 [compile->runtime]
@@ -744,7 +744,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.pdfbox#fontbox;1.8.4 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->commons-logging#commons-logging;1.1.1 [compile->default(compile)]
 [info] Resolving commons-logging#commons-logging;1.1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3fe14dd3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ebb44af
 [debug] sbt-chain: module revision found in cache: commons-logging#commons-logging;1.1.1
 [debug] 	found commons-logging#commons-logging;1.1.1 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->commons-logging#commons-logging;1.1.1 [compile->runtime]
@@ -752,7 +752,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->commons-logging#commons-logging;1.1.1 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.pdfbox#jempbox;1.8.4 [compile->default(compile)]
 [info] Resolving org.apache.pdfbox#jempbox;1.8.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c27c18b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59e4eab9
 [debug] sbt-chain: module revision found in cache: org.apache.pdfbox#jempbox;1.8.4
 [debug] 	found org.apache.pdfbox#jempbox;1.8.4 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.pdfbox#jempbox;1.8.4 [compile->runtime]
@@ -760,7 +760,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.pdfbox#jempbox;1.8.4 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.bouncycastle#bcmail-jdk15;1.45 [compile->default(compile)]
 [info] Resolving org.bouncycastle#bcmail-jdk15;1.45 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e30f256
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@21af03dc
 [debug] sbt-chain: module revision found in cache: org.bouncycastle#bcmail-jdk15;1.45
 [debug] 	found org.bouncycastle#bcmail-jdk15;1.45 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.bouncycastle#bcmail-jdk15;1.45 [compile->runtime]
@@ -768,7 +768,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.bouncycastle#bcmail-jdk15;1.45 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.bouncycastle#bcprov-jdk15;1.45 [compile->default(compile)]
 [info] Resolving org.bouncycastle#bcprov-jdk15;1.45 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@127fe3cd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@522ee507
 [debug] sbt-chain: module revision found in cache: org.bouncycastle#bcprov-jdk15;1.45
 [debug] 	found org.bouncycastle#bcprov-jdk15;1.45 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.bouncycastle#bcprov-jdk15;1.45 [compile->runtime]
@@ -776,7 +776,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.bouncycastle#bcprov-jdk15;1.45 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.poi#poi;3.10-beta2 [compile->default(compile)]
 [info] Resolving org.apache.poi#poi;3.10-beta2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@61dfdcad
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@16d4bb18
 [debug] sbt-chain: module revision found in cache: org.apache.poi#poi;3.10-beta2
 [debug] 	found org.apache.poi#poi;3.10-beta2 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.poi#poi;3.10-beta2 [compile->runtime]
@@ -784,7 +784,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.poi#poi;3.10-beta2 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.poi#poi-scratchpad;3.10-beta2 [compile->default(compile)]
 [info] Resolving org.apache.poi#poi-scratchpad;3.10-beta2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@44bf158a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@39858c1a
 [debug] sbt-chain: module revision found in cache: org.apache.poi#poi-scratchpad;3.10-beta2
 [debug] 	found org.apache.poi#poi-scratchpad;3.10-beta2 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.poi#poi-scratchpad;3.10-beta2 [compile->runtime]
@@ -792,7 +792,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.poi#poi-scratchpad;3.10-beta2 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.poi#poi-ooxml;3.10-beta2 [compile->default(compile)]
 [info] Resolving org.apache.poi#poi-ooxml;3.10-beta2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2cd6661d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f89ab53
 [debug] sbt-chain: module revision found in cache: org.apache.poi#poi-ooxml;3.10-beta2
 [debug] 	found org.apache.poi#poi-ooxml;3.10-beta2 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.poi#poi-ooxml;3.10-beta2 [compile->runtime]
@@ -800,7 +800,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.poi#poi-ooxml;3.10-beta2 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->dom4j#dom4j;1.6.1 [compile->default(compile)]
 [info] Resolving dom4j#dom4j;1.6.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@15b0ebcc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@46ab227b
 [debug] sbt-chain: module revision found in cache: dom4j#dom4j;1.6.1
 [debug] 	found dom4j#dom4j;1.6.1 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->dom4j#dom4j;1.6.1 [compile->runtime]
@@ -808,9 +808,9 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->dom4j#dom4j;1.6.1 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.geronimo.specs#geronimo-stax-api_1.0_spec;1.0.1 [compile->default(compile)]
 [info] Resolving org.apache.geronimo.specs#geronimo-stax-api_1.0_spec;1.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1274982b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@217d1d5e
 [info] Resolving org.apache.geronimo.specs#geronimo-stax-api_1.0_spec;1.0.1 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@1274982b
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@217d1d5e
 [debug] 		tried /Users/pbhatia/.ivy2/local/org.apache.geronimo.specs/geronimo-stax-api_1.0_spec/1.0.1/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.apache.geronimo.specs#geronimo-stax-api_1.0_spec;1.0.1
 [debug] 		tried /Users/pbhatia/.activator/repository/org.apache.geronimo.specs/geronimo-stax-api_1.0_spec/1.0.1/ivys/ivy.xml
@@ -824,7 +824,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0.1/geronimo-stax-api_1.0_spec-1.0.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0.1/geronimo-stax-api_1.0_spec-1.0.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0.1/geronimo-stax-api_1.0_spec-1.0.1.pom
-[debug] 	[SUCCESSFUL ] org.apache.geronimo.specs#geronimo-stax-api_1.0_spec;1.0.1!geronimo-stax-api_1.0_spec.pom(pom.original) (50ms)
+[debug] 	[SUCCESSFUL ] org.apache.geronimo.specs#geronimo-stax-api_1.0_spec;1.0.1!geronimo-stax-api_1.0_spec.pom(pom.original) (141ms)
 [info] Resolving org.apache.geronimo.specs#specs;1.3 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.geronimo.specs#specs;1.3 {}
 [debug] sbt-chain: module revision found in cache: org.apache.geronimo.specs#specs;1.3
@@ -834,7 +834,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.geronimo.specs#geronimo-stax-api_1.0_spec;1.0.1 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.ccil.cowan.tagsoup#tagsoup;1.2.1 [compile->default(compile)]
 [info] Resolving org.ccil.cowan.tagsoup#tagsoup;1.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5ae94239
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3a1af72
 [debug] sbt-chain: module revision found in cache: org.ccil.cowan.tagsoup#tagsoup;1.2.1
 [debug] 	found org.ccil.cowan.tagsoup#tagsoup;1.2.1 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.ccil.cowan.tagsoup#tagsoup;1.2.1 [compile->runtime]
@@ -842,7 +842,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.ccil.cowan.tagsoup#tagsoup;1.2.1 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.ow2.asm#asm-debug-all;4.1 [compile->default(compile)]
 [info] Resolving org.ow2.asm#asm-debug-all;4.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@635e8234
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2bd92a12
 [debug] sbt-chain: module revision found in cache: org.ow2.asm#asm-debug-all;4.1
 [debug] 	found org.ow2.asm#asm-debug-all;4.1 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.ow2.asm#asm-debug-all;4.1 [compile->runtime]
@@ -850,7 +850,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.ow2.asm#asm-debug-all;4.1 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.drewnoakes#metadata-extractor;2.6.2 [compile->default(compile)]
 [info] Resolving com.drewnoakes#metadata-extractor;2.6.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1395e035
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c57ac09
 [debug] sbt-chain: module revision found in cache: com.drewnoakes#metadata-extractor;2.6.2
 [debug] 	found com.drewnoakes#metadata-extractor;2.6.2 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.drewnoakes#metadata-extractor;2.6.2 [compile->runtime]
@@ -858,7 +858,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.drewnoakes#metadata-extractor;2.6.2 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.adobe.xmp#xmpcore;5.1.2 [compile->default(compile)]
 [info] Resolving com.adobe.xmp#xmpcore;5.1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e318f45
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@799a52d4
 [debug] sbt-chain: module revision found in cache: com.adobe.xmp#xmpcore;5.1.2
 [debug] 	found com.adobe.xmp#xmpcore;5.1.2 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.adobe.xmp#xmpcore;5.1.2 [compile->runtime]
@@ -866,7 +866,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.adobe.xmp#xmpcore;5.1.2 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->de.l3s.boilerpipe#boilerpipe;1.1.0 [compile->default(compile)]
 [info] Resolving de.l3s.boilerpipe#boilerpipe;1.1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@47c0989a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@38d29197
 [debug] sbt-chain: module revision found in cache: de.l3s.boilerpipe#boilerpipe;1.1.0
 [debug] 	found de.l3s.boilerpipe#boilerpipe;1.1.0 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->de.l3s.boilerpipe#boilerpipe;1.1.0 [compile->runtime]
@@ -874,7 +874,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->de.l3s.boilerpipe#boilerpipe;1.1.0 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->rome#rome;0.9 [compile->default(compile)]
 [info] Resolving rome#rome;0.9 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a56a06d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@84b9cf5
 [debug] sbt-chain: module revision found in cache: rome#rome;0.9
 [debug] 	found rome#rome;0.9 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->rome#rome;0.9 [compile->runtime]
@@ -882,7 +882,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->rome#rome;0.9 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->jdom#jdom;1.0 [compile->default(compile)]
 [info] Resolving jdom#jdom;1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2b41aadc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@89685b3
 [debug] sbt-chain: module revision found in cache: jdom#jdom;1.0
 [debug] 	found jdom#jdom;1.0 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->jdom#jdom;1.0 [compile->runtime]
@@ -890,7 +890,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->jdom#jdom;1.0 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [compile->default(compile)]
 [info] Resolving com.googlecode.juniversalchardet#juniversalchardet;1.0.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@29c601ba
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@387fd560
 [debug] sbt-chain: module revision found in cache: com.googlecode.juniversalchardet#juniversalchardet;1.0.3
 [debug] 	found com.googlecode.juniversalchardet#juniversalchardet;1.0.3 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [compile->runtime]
@@ -898,7 +898,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.googlecode.juniversalchardet#juniversalchardet;1.0.3 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.uwyn#jhighlight;1.0 [compile->default(compile)]
 [info] Resolving com.uwyn#jhighlight;1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7a8e8fcd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@593498da
 [debug] sbt-chain: module revision found in cache: com.uwyn#jhighlight;1.0
 [debug] 	found com.uwyn#jhighlight;1.0 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.uwyn#jhighlight;1.0 [compile->runtime]
@@ -906,7 +906,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->com.uwyn#jhighlight;1.0 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->net.sourceforge.nekohtml#nekohtml;1.9.21 [compile->default(compile)]
 [info] Resolving net.sourceforge.nekohtml#nekohtml;1.9.21 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@57553660
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c092931
 [debug] sbt-chain: module revision found in cache: net.sourceforge.nekohtml#nekohtml;1.9.21
 [debug] 	found net.sourceforge.nekohtml#nekohtml;1.9.21 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->net.sourceforge.nekohtml#nekohtml;1.9.21 [compile->runtime]
@@ -914,7 +914,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->net.sourceforge.nekohtml#nekohtml;1.9.21 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->xerces#xercesImpl;2.10.0 [compile->default(compile)]
 [info] Resolving xerces#xercesImpl;2.10.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@62711837
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@117b687e
 [debug] sbt-chain: module revision found in cache: xerces#xercesImpl;2.10.0
 [debug] 	found xerces#xercesImpl;2.10.0 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->xerces#xercesImpl;2.10.0 [compile->runtime]
@@ -922,7 +922,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->xerces#xercesImpl;2.10.0 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->xml-apis#xml-apis;1.4.01 [compile->default(compile)]
 [info] Resolving xml-apis#xml-apis;1.4.01 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@546279e1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@471e8dff
 [debug] sbt-chain: module revision found in cache: xml-apis#xml-apis;1.4.01
 [debug] 	found xml-apis#xml-apis;1.4.01 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->xml-apis#xml-apis;1.4.01 [compile->runtime]
@@ -930,7 +930,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->xml-apis#xml-apis;1.4.01 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.slf4j#slf4j-simple;1.7.6 [compile->default(compile)]
 [info] Resolving org.slf4j#slf4j-simple;1.7.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@20b44878
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e535627
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-simple;1.7.6
 [debug] 	found org.slf4j#slf4j-simple;1.7.6 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.slf4j#slf4j-simple;1.7.6 [compile->runtime]
@@ -938,7 +938,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.slf4j#slf4j-simple;1.7.6 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.commons#commons-lang3;3.3.2 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-lang3;3.3.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2259b54e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@79244b43
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-lang3;3.3.2
 [debug] 	found org.apache.commons#commons-lang3;3.3.2 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.commons#commons-lang3;3.3.2 [compile->runtime]
@@ -946,7 +946,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.commons#commons-lang3;3.3.2 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6262b651
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ffef774
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.1
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.1 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->runtime]
@@ -954,7 +954,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.scalanlp#epic-parser-en-span_2.11;2015.1.25 [compile->default(compile)]
 [info] Resolving org.scalanlp#epic-parser-en-span_2.11;2015.1.25 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@571c23bd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4cc80e97
 [debug] sbt-chain: module revision found in cache: org.scalanlp#epic-parser-en-span_2.11;2015.1.25
 [debug] 	found org.scalanlp#epic-parser-en-span_2.11;2015.1.25 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.scalanlp#epic-parser-en-span_2.11;2015.1.25 [compile->runtime]
@@ -962,7 +962,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.scalanlp#epic-parser-en-span_2.11;2015.1.25 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.scalanlp#epic_2.11;0.3 [compile->default(compile)]
 [info] Resolving org.scalanlp#epic_2.11;0.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@48aa6a6b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@44219625
 [debug] sbt-chain: module revision found in cache: org.scalanlp#epic_2.11;0.3
 [debug] 	found org.scalanlp#epic_2.11;0.3 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.scalanlp#epic_2.11;0.3 [compile->runtime]
@@ -970,7 +970,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.scalanlp#epic_2.11;0.3 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.scalanlp#breeze_2.11;0.11-M0 [compile->default(compile)]
 [info] Resolving org.scalanlp#breeze_2.11;0.11-M0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@b73edf4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@521d8099
 [debug] sbt-chain: module revision found in cache: org.scalanlp#breeze_2.11;0.11-M0
 [debug] 	found org.scalanlp#breeze_2.11;0.11-M0 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.scalanlp#breeze_2.11;0.11-M0 [compile->runtime]
@@ -978,7 +978,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.scalanlp#breeze_2.11;0.11-M0 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.11-M0 [compile->default(compile)]
 [info] Resolving org.scalanlp#breeze-macros_2.11;0.11-M0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1b3bc3d9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4aab02f7
 [debug] sbt-chain: module revision found in cache: org.scalanlp#breeze-macros_2.11;0.11-M0
 [debug] 	found org.scalanlp#breeze-macros_2.11;0.11-M0 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.11-M0 [compile->runtime]
@@ -986,7 +986,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.11-M0 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.4 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ffc539
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@72b969cb
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.4
 [debug] 	found org.scala-lang#scala-reflect;2.11.4 in sbt-chain
 [debug] 	[2.11.4] org.scala-lang#scala-reflect;2.11.4
@@ -995,7 +995,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.4 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->de.jflex#jflex;1.6.0 [compile->default(compile)]
 [info] Resolving de.jflex#jflex;1.6.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5ae0530a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@78e780e4
 [debug] sbt-chain: module revision found in cache: de.jflex#jflex;1.6.0
 [debug] 	found de.jflex#jflex;1.6.0 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->de.jflex#jflex;1.6.0 [compile->runtime]
@@ -1003,7 +1003,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->de.jflex#jflex;1.6.0 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.ant#ant;1.7.0 [compile->default(compile)]
 [info] Resolving org.apache.ant#ant;1.7.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5e20710c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@425b4008
 [debug] sbt-chain: module revision found in cache: org.apache.ant#ant;1.7.0
 [debug] 	found org.apache.ant#ant;1.7.0 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.ant#ant;1.7.0 [compile->runtime]
@@ -1011,7 +1011,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.ant#ant;1.7.0 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.ant#ant-launcher;1.7.0 [compile->default(compile)]
 [info] Resolving org.apache.ant#ant-launcher;1.7.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c0197a4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@79bc3a01
 [debug] sbt-chain: module revision found in cache: org.apache.ant#ant-launcher;1.7.0
 [debug] 	found org.apache.ant#ant-launcher;1.7.0 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.ant#ant-launcher;1.7.0 [compile->runtime]
@@ -1019,7 +1019,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.apache.ant#ant-launcher;1.7.0 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.scalanlp#epic-pos-en_2.11;2015.1.25 [compile->default(compile)]
 [info] Resolving org.scalanlp#epic-pos-en_2.11;2015.1.25 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4d055f34
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6c351939
 [debug] sbt-chain: module revision found in cache: org.scalanlp#epic-pos-en_2.11;2015.1.25
 [debug] 	found org.scalanlp#epic-pos-en_2.11;2015.1.25 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.scalanlp#epic-pos-en_2.11;2015.1.25 [compile->runtime]
@@ -1027,7 +1027,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.scalanlp#epic-pos-en_2.11;2015.1.25 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.scalanlp#epic-ner-en-conll_2.11;2015.1.25 [compile->default(compile)]
 [info] Resolving org.scalanlp#epic-ner-en-conll_2.11;2015.1.25 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c4d01c9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@452a6e3f
 [debug] sbt-chain: module revision found in cache: org.scalanlp#epic-ner-en-conll_2.11;2015.1.25
 [debug] 	found org.scalanlp#epic-ner-en-conll_2.11;2015.1.25 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.scalanlp#epic-ner-en-conll_2.11;2015.1.25 [compile->runtime]
@@ -1035,7 +1035,7 @@
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.scalanlp#epic-ner-en-conll_2.11;2015.1.25 [compile->master]
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.scalanlp#english_2.11;2015.1.25 [compile->default(compile)]
 [info] Resolving org.scalanlp#english_2.11;2015.1.25 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@62b98cc3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1af222e7
 [debug] sbt-chain: module revision found in cache: org.scalanlp#english_2.11;2015.1.25
 [debug] 	found org.scalanlp#english_2.11;2015.1.25 in sbt-chain
 [debug] == resolving dependencies default#parsers$sources_javadoc_2.11;1.0->org.scalanlp#english_2.11;2015.1.25 [compile->runtime]
@@ -5715,7 +5715,7 @@
 [debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1!netlib-native_ref-osx-x86_64.jar(src)
 [debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.jar
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.jar
-[warn] 	[NOT FOUND  ] com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1!netlib-native_ref-osx-x86_64.jar (12ms)
+[warn] 	[NOT FOUND  ] com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1!netlib-native_ref-osx-x86_64.jar (39ms)
 [warn] ==== public: tried
 [warn]   https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.jar
 [debug] 	[NOT REQUIRED] com.github.fommil.netlib#native_ref-java;1.1!native_ref-java.jar(doc)
@@ -5727,37 +5727,37 @@
 [debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1!netlib-native_ref-linux-x86_64.jar(src)
 [debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.jar
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.jar
-[warn] 	[NOT FOUND  ] com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1!netlib-native_ref-linux-x86_64.jar (10ms)
+[warn] 	[NOT FOUND  ] com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1!netlib-native_ref-linux-x86_64.jar (42ms)
 [warn] ==== public: tried
 [warn]   https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.jar
 [debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1!netlib-native_ref-linux-i686.jar(src)
 [debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1.jar
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1.jar
-[warn] 	[NOT FOUND  ] com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1!netlib-native_ref-linux-i686.jar (18ms)
+[warn] 	[NOT FOUND  ] com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1!netlib-native_ref-linux-i686.jar (37ms)
 [warn] ==== public: tried
 [warn]   https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1.jar
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1.jar
 [debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1!netlib-native_ref-win-x86_64.jar(src)
-[warn] 	[NOT FOUND  ] com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1!netlib-native_ref-win-x86_64.jar (12ms)
+[warn] 	[NOT FOUND  ] com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1!netlib-native_ref-win-x86_64.jar (35ms)
 [warn] ==== public: tried
 [warn]   https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1.jar
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1.jar
 [debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-win-i686;1.1!netlib-native_ref-win-i686.jar(src)
-[warn] 	[NOT FOUND  ] com.github.fommil.netlib#netlib-native_ref-win-i686;1.1!netlib-native_ref-win-i686.jar (12ms)
+[warn] 	[NOT FOUND  ] com.github.fommil.netlib#netlib-native_ref-win-i686;1.1!netlib-native_ref-win-i686.jar (34ms)
 [warn] ==== public: tried
 [warn]   https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1.jar
 [debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1!netlib-native_ref-linux-armhf.jar(src)
 [debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1.jar
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1.jar
-[warn] 	[NOT FOUND  ] com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1!netlib-native_ref-linux-armhf.jar (12ms)
+[warn] 	[NOT FOUND  ] com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1!netlib-native_ref-linux-armhf.jar (34ms)
 [warn] ==== public: tried
 [warn]   https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1.jar
 [debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1!netlib-native_system-osx-x86_64.jar(src)
 [debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.jar
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.jar
-[warn] 	[NOT FOUND  ] com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1!netlib-native_system-osx-x86_64.jar (11ms)
+[warn] 	[NOT FOUND  ] com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1!netlib-native_system-osx-x86_64.jar (34ms)
 [warn] ==== public: tried
 [warn]   https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.jar
 [debug] 	[NOT REQUIRED] com.github.fommil.netlib#native_system-java;1.1!native_system-java.jar
@@ -5766,31 +5766,31 @@
 [debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1!netlib-native_system-linux-x86_64.jar(src)
 [debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.jar
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.jar
-[warn] 	[NOT FOUND  ] com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1!netlib-native_system-linux-x86_64.jar (10ms)
+[warn] 	[NOT FOUND  ] com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1!netlib-native_system-linux-x86_64.jar (33ms)
 [warn] ==== public: tried
 [warn]   https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1.jar
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1.jar
 [debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-linux-i686;1.1!netlib-native_system-linux-i686.jar(src)
-[warn] 	[NOT FOUND  ] com.github.fommil.netlib#netlib-native_system-linux-i686;1.1!netlib-native_system-linux-i686.jar (13ms)
+[warn] 	[NOT FOUND  ] com.github.fommil.netlib#netlib-native_system-linux-i686;1.1!netlib-native_system-linux-i686.jar (35ms)
 [warn] ==== public: tried
 [warn]   https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1.jar
 [debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1!netlib-native_system-linux-armhf.jar(src)
 [debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.jar
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.jar
-[warn] 	[NOT FOUND  ] com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1!netlib-native_system-linux-armhf.jar (11ms)
+[warn] 	[NOT FOUND  ] com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1!netlib-native_system-linux-armhf.jar (34ms)
 [warn] ==== public: tried
 [warn]   https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.jar
 [debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1!netlib-native_system-win-x86_64.jar(src)
 [debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.jar
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.jar
-[warn] 	[NOT FOUND  ] com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1!netlib-native_system-win-x86_64.jar (11ms)
+[warn] 	[NOT FOUND  ] com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1!netlib-native_system-win-x86_64.jar (34ms)
 [warn] ==== public: tried
 [warn]   https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.jar
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.jar
 [debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-win-i686;1.1!netlib-native_system-win-i686.jar(src)
-[warn] 	[NOT FOUND  ] com.github.fommil.netlib#netlib-native_system-win-i686;1.1!netlib-native_system-win-i686.jar (10ms)
+[warn] 	[NOT FOUND  ] com.github.fommil.netlib#netlib-native_system-win-i686;1.1!netlib-native_system-win-i686.jar (36ms)
 [warn] ==== public: tried
 [warn]   https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.jar
 [debug] 	[NOT REQUIRED] org.apache.logging.log4j#log4j-core;2.0-beta8!log4j-core.jar
@@ -5815,8 +5815,8 @@
 [debug] 	[NOT REQUIRED] org.gagravarr#vorbis-java-core;0.1!vorbis-java-core.jar(doc)
 [debug] 	[NOT REQUIRED] org.gagravarr#vorbis-java-core;0.1!vorbis-java-core.jar
 [debug] 	[NOT REQUIRED] org.apache.james#apache-mime4j-core;0.7.2!apache-mime4j-core.jar(doc)
-[debug] 	[NOT REQUIRED] org.apache.james#apache-mime4j-core;0.7.2!apache-mime4j-core.jar
 [debug] 	[NOT REQUIRED] org.apache.james#apache-mime4j-core;0.7.2!apache-mime4j-core.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.james#apache-mime4j-core;0.7.2!apache-mime4j-core.jar
 [debug] 	[NOT REQUIRED] org.apache.james#apache-mime4j-dom;0.7.2!apache-mime4j-dom.jar(doc)
 [debug] 	[NOT REQUIRED] org.apache.james#apache-mime4j-dom;0.7.2!apache-mime4j-dom.jar
 [debug] 	[NOT REQUIRED] org.apache.james#apache-mime4j-dom;0.7.2!apache-mime4j-dom.jar(src)
@@ -5974,7 +5974,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(doc)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
-[debug] :: resolution report :: resolve 3744ms :: artifacts dl 759ms
+[debug] :: resolution report :: resolve 10396ms :: artifacts dl 1426ms
 [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
 [warn] 	::              FAILED DOWNLOADS            ::
 [warn] 	:: ^ see resolution messages for details  ^ ::
@@ -6006,4 +6006,4 @@
 [debug] 	report for default#parsers$sources_javadoc_2.11;1.0 docs produced in /Users/pbhatia/Desktop/Parsers/target/resolution-cache/reports/default-parsers$sources_javadoc_2.11-docs.xml
 [debug] 	report for default#parsers$sources_javadoc_2.11;1.0 pom produced in /Users/pbhatia/Desktop/Parsers/target/resolution-cache/reports/default-parsers$sources_javadoc_2.11-pom.xml
 [debug] 	report for default#parsers$sources_javadoc_2.11;1.0 scala-tool produced in /Users/pbhatia/Desktop/Parsers/target/resolution-cache/reports/default-parsers$sources_javadoc_2.11-scala-tool.xml
-[debug] 	resolve done (3744ms resolve - 759ms download)
+[debug] 	resolve done (10396ms resolve - 1426ms download)

@@ -858,9 +858,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.8!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
-[debug] :: resolution report :: resolve 249ms :: artifacts dl 13ms
+[debug] :: resolution report :: resolve 1110ms :: artifacts dl 32ms
 [debug] 	report for default#parsers$sbt_2.11;1.0 default produced in /Users/pbhatia/Desktop/Parsers/target/resolution-cache/reports/default-parsers$sbt_2.11-default.xml
-[debug] 	resolve done (249ms resolve - 13ms download)
+[debug] 	resolve done (1110ms resolve - 32ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#parsers$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -1339,7 +1339,7 @@
 [debug] 	[NOT REQUIRED] commons-io#commons-io;2.0.1!commons-io.jar(src)
 [debug] 	[NOT REQUIRED] net.virtual-void#sbt-dependency-graph;0.7.4!sbt-dependency-graph.jar(src)
 [debug] 	[NOT REQUIRED] com.github.mdr#ascii-graphs_2.10;0.0.3!ascii-graphs_2.10.jar(src)
-[debug] :: resolution report :: resolve 62ms :: artifacts dl 1230ms
+[debug] :: resolution report :: resolve 112ms :: artifacts dl 4684ms
 [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
 [warn] 	::              FAILED DOWNLOADS            ::
 [warn] 	:: ^ see resolution messages for details  ^ ::
@@ -1347,4 +1347,4 @@
 [warn] 	:: org.apache.ant#ant-launcher;1.7.0!ant-launcher.jar(src)
 [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
 [debug] 	report for default#parsers$sources_2.11;1.0 default produced in /Users/pbhatia/Desktop/Parsers/target/resolution-cache/reports/default-parsers$sources_2.11-default.xml
-[debug] 	resolve done (62ms resolve - 1230ms download)
+[debug] 	resolve done (112ms resolve - 4684ms download)

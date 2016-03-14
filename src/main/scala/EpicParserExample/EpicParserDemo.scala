@@ -1,16 +1,14 @@
-//val sentenceSplitter = MLSentenceSegmenter.bundled().get
+
+
 import epic.models.{NerSelector, ParserSelector}
 import epic.preprocess
-
-
-
-val text = "This is a test"
 
 object Parser {
   val parser = ParserSelector.loadParser().get
 }
 
-val reportSentences = List(
+object EpicParserDemo extends App {
+  val reportSentences = List(
     "DATE OF SERVICE: 10/09/2015",
     "CHIEF COMPLAINT: The patient is a 77-year-old gentleman with stage IVprostate cancer, here for further evaluation and management.",
     "HISTORY OF PRESENT ILLNESS: The history of present illness is well characterized in the initial/consult note.",
@@ -62,28 +60,28 @@ val reportSentences = List(
     "DD: 10/11/2015"
   )
 
-def parse(text: String) = {
-  println(text)
-  val preprocessed = preprocess.preprocess(text)
-  try {
-    val parsed = preprocessed.par.map(Parser.parser).seq
-    for ((tree, sentence) <- parsed zip preprocessed) {
-      println("Sentence: -- "+ sentence)
-      println(tree render sentence)
-      tree.allChildren.toList.map(
-        x =>
-          if (x.label.label == "NP") {
-            println(sentence.slice(x.span.begin, x.span.end).mkString((" ")))
-          }
-      )
-      //val render =  tree render sentence
-      //println(render.getClass())
+  def parse(text: String) = {
+    println(text)
+    val preprocessed = preprocess.preprocess(text)
+    try {
+      val parsed = preprocessed.par.map(Parser.parser).seq
+      for ((tree, sentence) <- parsed zip preprocessed) {
+        println("Sentence: -- "+ sentence)
+        println(tree render sentence)
+        tree.allChildren.toList.map(
+          x =>
+            if (x.label.label == "NP") {
+              println(sentence.slice(x.span.begin, x.span.end).mkString((" ")))
+            }
+        )
+        //val render =  tree render sentence
+        //println(render.getClass())
+      }
+    }
+    catch {
+      case gc: java.lang.OutOfMemoryError => println( gc.printStackTrace() + "Caused by: " + text)
     }
   }
-  catch {
-    case gc: java.lang.OutOfMemoryError => println( gc.printStackTrace() + "Caused by: " + text)
-  }
+  reportSentences.map( s=>  println("---------------------------------------------------------" + parse(s)))
+
 }
-
-reportSentences.map( s=>  println("---------------------------------------------------------" + parse(s)))
-

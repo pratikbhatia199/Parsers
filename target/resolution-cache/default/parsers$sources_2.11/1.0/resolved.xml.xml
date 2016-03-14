@@ -4,7 +4,7 @@
 		module="parsers$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160304141121"
+		publication="20160312015049"
 	/>
 	<configurations>
 		<conf name="default" visibility="public" description=""/>
